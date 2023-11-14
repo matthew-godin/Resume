@@ -113,8 +113,8 @@ function App() {
           <Col xs={8} style={universityDatesWeight}>September 2017 - April 2022</Col>
         </Row>
         <Row>
-          <Col style={jobDescriptionStyle} xs={7}>Honours Software Engineering, Co-op</Col>
-          <Col xs={17} style={{textAlign: 'right', fontSize: '11px', fontWeight: universitySkillsWeight}}>Machine Learning • Multithreaded Development • Compiler Construction • Feedback Control Systems</Col>
+          <Col style={jobDescriptionStyle} xs={10}>Bachelor's Degree, Honours Software Engineering, Co-op</Col>
+          <Col xs={14} style={{textAlign: 'right', fontSize: '11px', fontWeight: universitySkillsWeight}}></Col>
         </Row>
         <Title style={{ margin: '0', fontWeight: 'bold', color: 'black'}} level={5}>Projects</Title>
         <Row>
