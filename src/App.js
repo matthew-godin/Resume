@@ -39,9 +39,9 @@ function App() {
     <Space direction="vertical"
           style={{ paddingLeft: '6%', width: '89%'}}>
         <Title style={{ margin: '0', paddingTop: '2%', fontWeight: 'bold', color: 'black'}} level={5}>Skills</Title>
-        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold'}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Programming Languages</Paragraph> - C# • JavaScript • TypeScript • SQL • Python • Go • C • C++ • Swift • Java • PHP</Paragraph>
+        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold'}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Programming Languages</Paragraph> - C# • TypeScript • JavaScript • SQL • Python • Go • C++ • C • Swift • Java • PHP</Paragraph>
         <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold'}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Tools</Paragraph> - Git • Bash • Powershell • Docker • Visual Studio • IntelliJ • Android Studio • Xcode</Paragraph>
-        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold'}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Frameworks</Paragraph> - Node.js • Deno • React.js • Vue.js • .NET • Xamarin • Jest • NUnit • JUnit</Paragraph>
+        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold'}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Frameworks</Paragraph> - Node.js • Deno • React • Vue • .NET • Xamarin • Jest • NUnit • JUnit</Paragraph>
         <Title style={{ margin: '0', fontWeight: 'bold', color: 'black'}} level={5}>Experience</Title>
         <Row>
           <Col style={jobTitleWeight} xs={12}>Software Developer - Ceridian <Paragraph style={jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
