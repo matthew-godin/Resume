@@ -1,3 +1,3 @@
 # resume
 
-Simple React app representing a resume.
+Simple React app representing my resume.
