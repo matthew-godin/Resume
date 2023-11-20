@@ -174,7 +174,7 @@ function App() {
           <Col xs={8} style={projectDatesWeight}>January 2017 - May 2017</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Collège Lionel-Groulx graduation project (3D adventure game)</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Collège Lionel-Groulx Graduation Project (3D adventure game)</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>C# • WPF • XNA</Col>
         </Row>
       </div>
