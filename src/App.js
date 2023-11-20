@@ -32,6 +32,7 @@ const secondaryPadding = '0.25%';
 const titlePadding = '1.5%';
 const titleSecondaryPadding = '0.5%';
 const skillsPadding = '0.25%';
+const skillsPaddingLarger = '0.5%';
 
 function App() {
   return (
@@ -46,7 +47,7 @@ function App() {
           style={{ paddingLeft: '6%', width: '89%'}}>
         <Title style={{ margin: '0', paddingTop: '3%', paddingBottom: titleSecondaryPadding, fontWeight: 'bold', color: 'black'}} level={5}>Skills</Title>
         <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPadding, paddingBottom: skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Programming Languages</Paragraph> - C# • TypeScript • JavaScript • SQL • Python • Go • C++ • C • Swift • Java • PHP</Paragraph>
-        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPadding, paddingBottom: skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Tools</Paragraph> - Git • Bash • Powershell • Docker • Visual Studio • IntelliJ • Android Studio • Xcode</Paragraph>
+        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPaddingLarger, paddingBottom: skillsPaddingLarger}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Tools</Paragraph> - Git • Bash • Powershell • Docker • Visual Studio • IntelliJ • Android Studio • Xcode</Paragraph>
         <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPadding, paddingBottom: skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Frameworks</Paragraph> - Node.js • Deno • React • Vue • .NET • Xamarin • Jest • NUnit • JUnit</Paragraph>
         <Title style={{ margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Experience</Title>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
