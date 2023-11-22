@@ -27,11 +27,11 @@ const jobDescriptionStyle = jobUniversityProjectDescriptionStyle;
 const universityDescriptionStyle = jobUniversityProjectDescriptionStyle;
 const projectDescriptionStyle = jobUniversityProjectDescriptionStyle;
 
-const mainPadding = '0.9%';
-const secondaryPadding = '0.25%';
-const titlePadding = '1.5%';
-const titleSecondaryPadding = '0.5%';
-const skillsPadding = '0.25%';
+const mainPadding = '1%';
+const secondaryPadding = '0.35%';
+const titlePadding = '1.7%';
+const titleSecondaryPadding = '0.7%';
+const skillsPadding = '0.35%';
 const skillsPaddingLarger = '0.5%';
 
 function App() {
@@ -48,7 +48,7 @@ function App() {
         <Title style={{ margin: '0', paddingTop: '3%', paddingBottom: titleSecondaryPadding, fontWeight: 'bold', color: 'black'}} level={5}>Skills</Title>
         <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPadding, paddingBottom: skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Programming Languages</Paragraph> - C# • TypeScript • JavaScript • SQL • Python • Go • C++ • C • Swift • Java • PHP</Paragraph>
         <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPaddingLarger, paddingBottom: skillsPaddingLarger}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Tools</Paragraph> - Git • Bash • Powershell • Docker • Visual Studio • IntelliJ • Android Studio • Xcode</Paragraph>
-        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPadding, paddingBottom: skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Frameworks</Paragraph> - Node.js • Deno • React • Vue • .NET • Xamarin • Jest • NUnit • JUnit</Paragraph>
+        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPadding, paddingBottom: skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Frameworks</Paragraph> - Node.js • Deno • React • Vue • ASP.NET Core • Laravel • Xamarin • Jest • NUnit • JUnit</Paragraph>
         <Title style={{ margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Experience</Title>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
           <Col style={jobTitleWeight} xs={12}>Software Developer - Ceridian <Paragraph style={jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
@@ -57,7 +57,7 @@ function App() {
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
           <Col style={jobDescriptionStyle} xs={16}>Ceridian Dayforce Reward Letters, Compensation Guidelines, Candidate Management</Col>
-          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • .NET • React</Col>
+          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
           <Col style={jobTitleWeight} xs={12}>Software Developer Intern - Ceridian <Paragraph style={jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
@@ -66,7 +66,7 @@ function App() {
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
           <Col style={jobDescriptionStyle} xs={16}>Ceridian Dayforce Compensation Cycles</Col>
-          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • .NET • React</Col>
+          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
           <Col style={jobTitleWeight} xs={12}>Software Developer Intern - Skillbook Academy <Paragraph style={jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
@@ -140,7 +140,7 @@ function App() {
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
           <Col style={jobDescriptionStyle} xs={16}>University of Waterloo Capstone Project (website similar to leetcode.com)</Col>
-          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>TypeScript • Go • Deno • Docker • React</Col>
+          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>TypeScript • Go • Deno • Docker • SQL • React</Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
           <Col style={projectTitleWeight} xs={12}>Once Upon a Time</Col>
@@ -168,15 +168,6 @@ function App() {
         <Row style={{paddingBottom: mainPadding}}>
           <Col style={jobDescriptionStyle} xs={16}>First Place - MHacks Nano 2017 (Google Chrome plugin)</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>JavaScript</Col>
-        </Row>
-        <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
-          <Col style={projectTitleWeight} xs={12}>Hyper-V</Col>
-          <Col xs={4}></Col>
-          <Col xs={8} style={projectDatesWeight}>January 2017 - May 2017</Col>
-        </Row>
-        <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Collège Lionel-Groulx Graduation Project (3D adventure game)</Col>
-          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>C# • WPF • XNA</Col>
         </Row>
       </div>
     </>
