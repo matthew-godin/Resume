@@ -56,7 +56,7 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>May 2022 - Present</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Ceridian Dayforce Reward Letters, Compensation Guidelines, Candidate Management</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Developed new Ceridian Dayforce Compensation Guidelines and Candidate Management features</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
@@ -65,8 +65,8 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>September 2021 - December 2021</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Ceridian Dayforce Compensation Cycles</Col>
-          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
+          <Col style={jobDescriptionStyle} xs={14}>Developed new Ceridian Dayforce Compensation Cycles and Reward Letter features</Col>
+          <Col xs={10} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
           <Col style={jobTitleWeight} xs={12}>Software Developer Intern - Skillbook Academy <Paragraph style={jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
@@ -74,7 +74,7 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>January 2021 - April 2021</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Skillbook Academy Admin Dashboard</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Developed new features for Skillbook Academy's administrator dashboard</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>TypeScript • PHP • Laravel • Vue • SQL</Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
@@ -83,7 +83,7 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>June 2020 - August 2020</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Virtek PDC 2020.08</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Developed new features for the Virtek PDC 2020.08 CAD authoring tool</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • Python • C++ • WPF • ACIS</Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
@@ -92,7 +92,7 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>September 2019 - December 2019</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Bentley APM Mobile Inspections</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Developed new features for the Bentley APM Mobile Inspections application</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • Xamarin • Android • iOS</Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
@@ -101,7 +101,7 @@ function App() {
           <Col xs={6} style={jobDatesWeight}>January 2019 - April 2019</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Netint T408 Codensity SSD Automated Testing</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Developed automated tests for the Netint T408 Codensity SSD</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>Python • NVMe</Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
@@ -110,7 +110,7 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>May 2018 - August 2018</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Wind River Titanium Cloud Infrastructure</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Developed dashboards for the Wind River Titanium Cloud infrastructure</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>Python • InfluxDB • Grafana</Col>
         </Row>
         <Title style={{ margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Education</Title>
