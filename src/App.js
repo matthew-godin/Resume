@@ -56,7 +56,7 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>May 2022 - Present</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Developed new Ceridian Dayforce Compensation Guidelines and Candidate Management features</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Developed new features for the Dayforce application (Guidelines and Candidate Management)</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
@@ -65,8 +65,8 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>September 2021 - December 2021</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={14}>Developed new Ceridian Dayforce Compensation Cycles and Reward Letter features</Col>
-          <Col xs={10} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Developed new features for the Dayforce application (Compensation Cycles and Reward Letter)</Col>
+          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
           <Col style={jobTitleWeight} xs={12}>Software Developer Intern - Skillbook Academy <Paragraph style={jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
