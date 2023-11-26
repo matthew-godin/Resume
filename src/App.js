@@ -65,7 +65,7 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>September 2021 - December 2021</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Developed new features for the Dayforce application (Compensation Cycles and Reward Letter)</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Developed new features for the Dayforce application (Compensation Cycles and Reward Letters)</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
