@@ -1,5 +1,5 @@
 import './App.css';
-import { Typography, Space, Card, Col, Row } from 'antd';
+import { Typography, Space, Card, Col, Row, List } from 'antd';
 import { Link } from 'react-router-dom';
 const { Title, Paragraph } = Typography;
 
@@ -23,14 +23,16 @@ const jobCityStyle = jobUniversityProjectCityStyle;
 const universityCityStyle = jobUniversityProjectCityStyle;
 
 const jobUniversityProjectDescriptionStyle = {fontSize: '11px', fontWeight: '500', color: 'black', display: 'inline'};
+const jobAdditionalInformationStyle = {fontSize: '11px', fontWeight: '500', color: 'black'};
 const jobDescriptionStyle = jobUniversityProjectDescriptionStyle;
 const universityDescriptionStyle = jobUniversityProjectDescriptionStyle;
 const projectDescriptionStyle = jobUniversityProjectDescriptionStyle;
 
-const mainPadding = '1%';
-const secondaryPadding = '0.35%';
-const titlePadding = '1.7%';
-const titleSecondaryPadding = '0.7%';
+const mainPadding = '0.55%';
+const secondaryPadding = '0.2%';
+const secondarySecondaryPadding = '0.5%';
+const titlePadding = '0.75%';
+const titleSecondaryPadding = '0';
 const skillsPadding = '0.35%';
 const skillsPaddingLarger = '0.5%';
 
@@ -55,63 +57,114 @@ function App() {
           <Col xs={4}></Col>
           <Col xs={8} style={jobDatesWeight}>May 2022 - Present</Col>
         </Row>
-        <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Developed new features for the Dayforce application (Guidelines and Candidate Management)</Col>
+        <Row style={{paddingBottom: secondarySecondaryPadding}}>
+          <Col style={jobDescriptionStyle} xs={16}>Dayforce Guidelines and Candidate Management</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
+        </Row>
+        <Row style={{paddingBottom: mainPadding}}>
+          <Col xs={24}>
+            <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
+              <li style={jobAdditionalInformationStyle}>Developed release management using LaunchDarkly and made screens fully accessible by following WCAG</li>
+              <li style={jobAdditionalInformationStyle}>Took part in the development of the new Candidate Management screen using new Everest design system</li>
+              <li style={jobAdditionalInformationStyle}>Took part in the development of the new Multidimensional Guidelines screen</li>
+            </ul>
+          </Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
           <Col style={jobTitleWeight} xs={12}>Software Developer Intern - Ceridian <Paragraph style={jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={jobDatesWeight}>September 2021 - December 2021</Col>
         </Row>
-        <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Developed new features for the Dayforce application (Compensation Cycles and Reward Letters)</Col>
+        <Row style={{paddingBottom: secondarySecondaryPadding}}>
+          <Col style={jobDescriptionStyle} xs={16}>Dayforce Compensation Cycles and Reward Letters</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
+        </Row>
+        <Row style={{paddingBottom: mainPadding}}>
+          <Col xs={24}>
+            <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
+              <li style={jobAdditionalInformationStyle}>Developed new features such as Reward Letter Equity Details using IronPDF</li>
+            </ul>
+          </Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
           <Col style={jobTitleWeight} xs={12}>Software Developer Intern - Skillbook Academy <Paragraph style={jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={jobDatesWeight}>January 2021 - April 2021</Col>
         </Row>
-        <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Developed new features for Skillbook Academy's administrator dashboard</Col>
+        <Row style={{paddingBottom: secondarySecondaryPadding}}>
+          <Col style={jobDescriptionStyle} xs={16}>Skillbook Academy's Administrator Dashboard</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>TypeScript • PHP • Laravel • Vue • SQL</Col>
+        </Row>
+        <Row style={{paddingBottom: mainPadding}}>
+          <Col xs={24}>
+            <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
+              <li style={jobAdditionalInformationStyle}>Added the ability to track visitors and clients on a dashboard using ipstack and Stripe</li>
+            </ul>
+          </Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
           <Col style={jobTitleWeight} xs={12}>Software Developer Intern - Virtek Vision <Paragraph style={jobCityStyle}>&ensp;Waterloo, ON</Paragraph></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={jobDatesWeight}>June 2020 - August 2020</Col>
         </Row>
-        <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Developed new features for the Virtek PDC 2020.08 CAD authoring tool</Col>
+        <Row style={{paddingBottom: secondarySecondaryPadding}}>
+          <Col style={jobDescriptionStyle} xs={16}>Virtek PDC 2020.08</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • Python • C++ • WPF • ACIS</Col>
+        </Row>
+        <Row style={{paddingBottom: mainPadding}}>
+          <Col xs={24}>
+            <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
+              <li style={jobAdditionalInformationStyle}>Developed new features such as Center Snap Mode or Projected Text</li>
+            </ul>
+          </Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
           <Col style={jobTitleWeight} xs={12}>Software Developer Intern - Bentley Systems <Paragraph style={jobCityStyle}>&ensp;Burlington, ON</Paragraph></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={jobDatesWeight}>September 2019 - December 2019</Col>
         </Row>
-        <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Developed new features for the Bentley APM Mobile Inspections application</Col>
+        <Row style={{paddingBottom: secondarySecondaryPadding}}>
+          <Col style={jobDescriptionStyle} xs={16}>Bentley APM Mobile Inspections</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • Xamarin • Android • iOS</Col>
+        </Row>
+        <Row style={{paddingBottom: mainPadding}}>
+          <Col xs={24}>
+            <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
+              <li style={jobAdditionalInformationStyle}>Improved Zxing.Net.Mobile open-source library to scan distant barcodes and developed dark mode</li>
+            </ul>
+          </Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
           <Col style={jobTitleWeight} xs={14}>Software Developer Intern - Netint Technologies <Paragraph style={jobCityStyle}>&ensp;Markham, ON</Paragraph></Col>
           <Col xs={4}></Col>
           <Col xs={6} style={jobDatesWeight}>January 2019 - April 2019</Col>
         </Row>
-        <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Developed automated tests for the Netint T408 Codensity SSD</Col>
+        <Row style={{paddingBottom: secondarySecondaryPadding}}>
+          <Col style={jobDescriptionStyle} xs={16}>Netint T408 Codensity SSD Automated Tests</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>Python • NVMe</Col>
+        </Row>
+        <Row style={{paddingBottom: mainPadding}}>
+          <Col xs={24}>
+            <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
+              <li style={jobAdditionalInformationStyle}>Developed automated tests that test random and sequential read and write operations</li>
+            </ul>
+          </Col>
         </Row>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
           <Col style={jobTitleWeight} xs={12}>Software Developer Intern - Wind River Systems <Paragraph style={jobCityStyle}>&ensp;Ottawa, ON</Paragraph></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={jobDatesWeight}>May 2018 - August 2018</Col>
         </Row>
-        <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Developed dashboards for the Wind River Titanium Cloud infrastructure</Col>
+        <Row style={{paddingBottom: secondarySecondaryPadding}}>
+          <Col style={jobDescriptionStyle} xs={16}>Wind River Titanium Cloud Infrastructure</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>Python • InfluxDB • Grafana</Col>
+        </Row>
+        <Row style={{paddingBottom: mainPadding}}>
+          <Col xs={24}>
+            <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
+              <li style={jobAdditionalInformationStyle}>Developed dashboards that track network performance and service instance counts in real time</li>
+            </ul>
+          </Col>
         </Row>
         <Title style={{ margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Education</Title>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
@@ -124,7 +177,7 @@ function App() {
           <Col xs={14} style={{textAlign: 'right', fontSize: '11px', fontWeight: universitySkillsWeight}}></Col>
         </Row>
         <Title style={{ margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Projects</Title>
-        <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
+        <Row style={{paddingTop: mainPadding}}>
           <Col style={projectTitleWeight} xs={12}>Talk to Me</Col>
           <Col xs={4}></Col>
           <Col xs={8} style={projectDatesWeight}>August 2022</Col>
@@ -133,7 +186,7 @@ function App() {
           <Col style={jobDescriptionStyle} xs={18}>First Place for Most Well-Rounded Hack in North America, Ceridian Hackathon 2022 (chat bot app)</Col>
           <Col xs={6} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>TypeScript • Swift • iOS • React</Col>
         </Row>
-        <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
+        <Row style={{paddingTop: mainPadding}}>
           <Col style={projectTitleWeight} xs={12}>Licode</Col>
           <Col xs={4}></Col>
           <Col xs={8} style={projectDatesWeight}>September 2020 - April 2022</Col>
@@ -142,7 +195,7 @@ function App() {
           <Col style={jobDescriptionStyle} xs={16}>University of Waterloo Capstone Project (website similar to leetcode.com)</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>TypeScript • Go • Deno • Docker • SQL • React</Col>
         </Row>
-        <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
+        <Row style={{paddingTop: mainPadding}}>
           <Col style={projectTitleWeight} xs={12}>Once Upon a Time</Col>
           <Col xs={4}></Col>
           <Col xs={8} style={projectDatesWeight}>September 2018</Col>
@@ -151,7 +204,7 @@ function App() {
           <Col style={jobDescriptionStyle} xs={16}>First Place - Hack the North 2018 (VR app)</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>C# • Node.js • IBM Watson • Socket.io • Unity</Col>
         </Row>
-        <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
+        <Row style={{paddingTop: mainPadding}}>
           <Col style={projectTitleWeight} xs={12}>Aya</Col>
           <Col xs={4}></Col>
           <Col xs={8} style={projectDatesWeight}>September 2017</Col>
@@ -160,7 +213,7 @@ function App() {
           <Col style={jobDescriptionStyle} xs={14}>First Place - Hack the North 2017 (intelligent robot head)</Col>
           <Col xs={10} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>Python • AWS • Embedded Software • 3D Printing</Col>
         </Row>
-        <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
+        <Row style={{paddingTop: mainPadding}}>
           <Col style={projectTitleWeight} xs={12}>Messenger Latex</Col>
           <Col xs={4}></Col>
           <Col xs={8} style={projectDatesWeight}>June 2017</Col>
