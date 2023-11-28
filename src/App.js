@@ -196,6 +196,24 @@ function App() {
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>TypeScript • Go • Deno • Docker • SQL • React</Col>
         </Row>
         <Row style={{paddingTop: mainPadding}}>
+          <Col style={projectTitleWeight} xs={12}>Machine Learning Models</Col>
+          <Col xs={4}></Col>
+          <Col xs={8} style={projectDatesWeight}>January 2022 - April 2022</Col>
+        </Row>
+        <Row style={{paddingBottom: mainPadding}}>
+          <Col style={jobDescriptionStyle} xs={18}>Multiple neural network models (CNNs, MLPs, RNNs, GANs, VAEs, GMMs, logistic regression, perceptron)</Col>
+          <Col xs={6} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>PyTorch • Python</Col>
+        </Row>
+        <Row style={{paddingTop: mainPadding}}>
+          <Col style={projectTitleWeight} xs={12}>Distributed Systems</Col>
+          <Col xs={4}></Col>
+          <Col xs={8} style={projectDatesWeight}>May 2021 - August 2021</Col>
+        </Row>
+        <Row style={{paddingBottom: mainPadding}}>
+          <Col style={jobDescriptionStyle} xs={16}>Multiple client-server applications (Graph processing, RPCs, Big Data, Fault Tolerance, Streams)</Col>
+          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>Kafka • Spark • Hadoop • Zookeeper • Java</Col>
+        </Row>
+        <Row style={{paddingTop: mainPadding}}>
           <Col style={projectTitleWeight} xs={12}>Once Upon a Time</Col>
           <Col xs={4}></Col>
           <Col xs={8} style={projectDatesWeight}>September 2018</Col>
@@ -203,24 +221,6 @@ function App() {
         <Row style={{paddingBottom: mainPadding}}>
           <Col style={jobDescriptionStyle} xs={16}>First Place - Hack the North 2018 (VR app)</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>C# • Node.js • IBM Watson • Socket.io • Unity</Col>
-        </Row>
-        <Row style={{paddingTop: mainPadding}}>
-          <Col style={projectTitleWeight} xs={12}>Aya</Col>
-          <Col xs={4}></Col>
-          <Col xs={8} style={projectDatesWeight}>September 2017</Col>
-        </Row>
-        <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={14}>First Place - Hack the North 2017 (intelligent robot head)</Col>
-          <Col xs={10} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>Python • AWS • Embedded Software • 3D Printing</Col>
-        </Row>
-        <Row style={{paddingTop: mainPadding}}>
-          <Col style={projectTitleWeight} xs={12}>Messenger Latex</Col>
-          <Col xs={4}></Col>
-          <Col xs={8} style={projectDatesWeight}>June 2017</Col>
-        </Row>
-        <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>First Place - MHacks Nano 2017 (Google Chrome plugin)</Col>
-          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>JavaScript</Col>
         </Row>
       </div>
     </>
