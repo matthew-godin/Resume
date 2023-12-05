@@ -58,7 +58,7 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>May 2022 - Present</Col>
         </Row>
         <Row style={{paddingBottom: secondarySecondaryPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Dayforce Message Center, Guidelines and Candidate Management</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Dayforce Candidate Management, Guidelines and Message Center</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
@@ -78,7 +78,7 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>September 2021 - December 2021</Col>
         </Row>
         <Row style={{paddingBottom: secondarySecondaryPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Dayforce Compensation Cycles and Reward Letters</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Dayforce Reward Letters and Compensation Cycles</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
