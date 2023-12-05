@@ -28,13 +28,13 @@ const jobDescriptionStyle = jobUniversityProjectDescriptionStyle;
 const universityDescriptionStyle = jobUniversityProjectDescriptionStyle;
 const projectDescriptionStyle = jobUniversityProjectDescriptionStyle;
 
-const mainPadding = '0.55%';
-const secondaryPadding = '0.2%';
-const secondarySecondaryPadding = '0.5%';
-const titlePadding = '0.75%';
+const mainPadding = '0.45%';
+const secondaryPadding = '0.15%';
+const secondarySecondaryPadding = '0.4%';
+const titlePadding = '0.5%';
 const titleSecondaryPadding = '0';
-const skillsPadding = '0.35%';
-const skillsPaddingLarger = '0.5%';
+const skillsPadding = '0.25%';
+const skillsPaddingLarger = '0.35%';
 
 function App() {
   return (
@@ -58,15 +58,17 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>May 2022 - Present</Col>
         </Row>
         <Row style={{paddingBottom: secondarySecondaryPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Dayforce Guidelines and Candidate Management</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Dayforce Message Center, Guidelines and Candidate Management</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
           <Col xs={24}>
             <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
-              <li style={jobAdditionalInformationStyle}>Developed release management using LaunchDarkly and made screens fully accessible by following WCAG</li>
-              <li style={jobAdditionalInformationStyle}>Took part in the development of the new Candidate Management screen using new Everest design system</li>
-              <li style={jobAdditionalInformationStyle}>Took part in the development of the new Multidimensional Guidelines screen</li>
+              <li style={jobAdditionalInformationStyle}>Developed LaunchDarkly APIs that make it possible to release features to specific clients in a few clicks</li>
+              <li style={jobAdditionalInformationStyle}>Made new and previous screens thoroughly follow the best accessibility standards by following WAI's WCAG 2.1</li>
+              <li style={jobAdditionalInformationStyle}>Developed React grids and dialogs that fetch and send data to the back end</li>
+              <li style={jobAdditionalInformationStyle}>Developed REST APIs and SQL Server queries that retrieve and save data on which sorts, filters, and business logic are performed</li>
+              <li style={jobAdditionalInformationStyle}>Developed an interactive dialog allowing the insertion of different tokens to send personalized reward messages</li>
             </ul>
           </Col>
         </Row>
@@ -82,7 +84,7 @@ function App() {
         <Row style={{paddingBottom: mainPadding}}>
           <Col xs={24}>
             <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
-              <li style={jobAdditionalInformationStyle}>Developed new features such as Reward Letter Equity Details using IronPDF</li>
+              <li style={jobAdditionalInformationStyle}>Upgraded REST APIs to send additional data and developed new features such as Reward Letter Equity Details using IronPDF</li>
             </ul>
           </Col>
         </Row>
@@ -98,7 +100,7 @@ function App() {
         <Row style={{paddingBottom: mainPadding}}>
           <Col xs={24}>
             <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
-              <li style={jobAdditionalInformationStyle}>Added the ability to track visitors and clients on a dashboard using ipstack and Stripe</li>
+              <li style={jobAdditionalInformationStyle}>Developed robust and secure REST APIs, MySQL tables normalized to BCNF, and Vue components using Stripe's API</li>
             </ul>
           </Col>
         </Row>
@@ -114,7 +116,7 @@ function App() {
         <Row style={{paddingBottom: mainPadding}}>
           <Col xs={24}>
             <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
-              <li style={jobAdditionalInformationStyle}>Developed new features such as Center Snap Mode or Projected Text</li>
+              <li style={jobAdditionalInformationStyle}>Developed new features including Center Snap Mode and Projected Text, improved the installer and reduced the build time by 88%</li>
             </ul>
           </Col>
         </Row>
@@ -130,7 +132,7 @@ function App() {
         <Row style={{paddingBottom: mainPadding}}>
           <Col xs={24}>
             <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
-              <li style={jobAdditionalInformationStyle}>Improved Zxing.Net.Mobile open-source library to scan distant barcodes and developed dark mode</li>
+              <li style={jobAdditionalInformationStyle}>Developed dark mode, ability to scan distant barcodes by improving the Zxing.Net.Mobile library and Collection Requirements feature</li>
             </ul>
           </Col>
         </Row>
@@ -162,7 +164,7 @@ function App() {
         <Row style={{paddingBottom: mainPadding}}>
           <Col xs={24}>
             <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
-              <li style={jobAdditionalInformationStyle}>Developed dashboards that track network performance and service instance counts in real time</li>
+              <li style={jobAdditionalInformationStyle}>Developed dashboards that track network performance and process counts in real time</li>
             </ul>
           </Col>
         </Row>
@@ -183,7 +185,7 @@ function App() {
           <Col xs={8} style={projectDatesWeight}>August 2022</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={18}>First Place for Most Well-Rounded Hack in North America, Ceridian Hackathon 2022 (chat bot app)</Col>
+          <Col style={jobDescriptionStyle} xs={18}>First Place for Most Well-Rounded Hack in North America, Ceridian Hackathon 2022 (HR form chat bot app)</Col>
           <Col xs={6} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>TypeScript • Swift • iOS • React</Col>
         </Row>
         <Row style={{paddingTop: mainPadding}}>
@@ -192,7 +194,7 @@ function App() {
           <Col xs={8} style={projectDatesWeight}>September 2020 - April 2022</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>University of Waterloo Capstone Project (website similar to leetcode.com)</Col>
+          <Col style={jobDescriptionStyle} xs={16}>University of Waterloo Capstone Project (1v1 equivalent of leetcode.com)</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>TypeScript • Go • Deno • Docker • SQL • React</Col>
         </Row>
         <Row style={{paddingTop: mainPadding}}>
@@ -219,7 +221,7 @@ function App() {
           <Col xs={8} style={projectDatesWeight}>September 2018</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>First Place - Hack the North 2018 (VR app)</Col>
+          <Col style={jobDescriptionStyle} xs={16}>First Place - Hack the North 2018 (VR app generating scenery according to the story you're telling)</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>C# • Node.js • IBM Watson • Socket.io • Unity</Col>
         </Row>
       </div>
