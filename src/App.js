@@ -132,7 +132,7 @@ function App() {
         <Row style={{paddingBottom: mainPadding}}>
           <Col xs={24}>
             <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
-              <li style={jobAdditionalInformationStyle}>Developed dark mode, ability to scan distant barcodes by improving the Zxing.Net.Mobile library and Collection Requirements feature</li>
+              <li style={jobAdditionalInformationStyle}>Developed dark mode, ability to scan distant barcodes by improving the Zxing.Net.Mobile library and a Collection Requirements feature</li>
             </ul>
           </Col>
         </Row>
