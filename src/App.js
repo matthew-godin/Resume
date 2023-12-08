@@ -8,6 +8,8 @@ const jobSkillsWeight = jobUniversityProjectSkillsWeight;
 const universitySkillsWeight = jobUniversityProjectSkillsWeight;
 const projectSkillsWeight = jobUniversityProjectSkillsWeight;
 
+const titleFontSize = '18px';
+
 const jobUniversityProjectDatesStyle = {textAlign: 'right', fontSize: '13px', fontWeight: 'bold'};
 const jobDatesWeight = jobUniversityProjectDatesStyle;
 const universityDatesWeight = jobUniversityProjectDatesStyle;
@@ -28,13 +30,13 @@ const jobDescriptionStyle = jobUniversityProjectDescriptionStyle;
 const universityDescriptionStyle = jobUniversityProjectDescriptionStyle;
 const projectDescriptionStyle = jobUniversityProjectDescriptionStyle;
 
-const mainPadding = '0.45%';
-const secondaryPadding = '0.15%';
-const secondarySecondaryPadding = '0.4%';
-const titlePadding = '0.5%';
-const titleSecondaryPadding = '0';
+const mainPadding = '0.35%';
+const secondaryPadding = '0.05%';
+const secondarySecondaryPadding = '0.3%';
+const titlePadding = '1%';
+const titleSecondaryPadding = '0.25%';
 const skillsPadding = '0.25%';
-const skillsPaddingLarger = '0.35%';
+const skillsPaddingLarger = '0.15%';
 
 function App() {
   return (
@@ -47,11 +49,11 @@ function App() {
     </div>
     <div
           style={{ paddingLeft: '6%', width: '89%'}}>
-        <Title style={{ margin: '0', paddingTop: '3%', paddingBottom: titleSecondaryPadding, fontWeight: 'bold', color: 'black'}} level={5}>Skills</Title>
+        <Title style={{ fontSize: titleFontSize, margin: '0', paddingTop: '3%', paddingBottom: titleSecondaryPadding, fontWeight: 'bold', color: 'black' }} level={5}>Skills</Title>
         <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPadding, paddingBottom: skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Programming Languages</Paragraph> - C# • TypeScript • JavaScript • SQL • Python • Go • C++ • C • Swift • Java • PHP</Paragraph>
         <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPaddingLarger, paddingBottom: skillsPaddingLarger}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Tools</Paragraph> - Git • Bash • Powershell • Docker • Visual Studio • IntelliJ • Android Studio • Xcode</Paragraph>
         <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPadding, paddingBottom: skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Frameworks</Paragraph> - Node.js • Deno • React • Vue • ASP.NET Core • Laravel • PyTorch • Kafka • Spark • Jest • NUnit • JUnit</Paragraph>
-        <Title style={{ margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Experience</Title>
+        <Title style={{ fontSize: titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding }} level={5}>Experience</Title>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
           <Col style={jobTitleWeight} xs={12}>Software Developer - Ceridian <Paragraph style={jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
           <Col xs={4}></Col>
@@ -100,7 +102,7 @@ function App() {
         <Row style={{paddingBottom: mainPadding}}>
           <Col xs={24}>
             <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
-              <li style={jobAdditionalInformationStyle}>Developed robust and secure REST APIs, MySQL tables normalized to BCNF, and Vue components using Stripe's API</li>
+              <li style={jobAdditionalInformationStyle}>Developed robust and secure REST APIs, MySQL tables normalized to BCNF, and Vue components that use Stripe's API</li>
             </ul>
           </Col>
         </Row>
@@ -168,7 +170,7 @@ function App() {
             </ul>
           </Col>
         </Row>
-        <Title style={{ margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Education</Title>
+        <Title style={{ fontSize: titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Education</Title>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
           <Col style={universityTitleWeight} xs={12}>University of Waterloo <Paragraph style={universityCityStyle}>&ensp;Waterloo, ON</Paragraph></Col>
           <Col xs={4}></Col>
@@ -178,7 +180,7 @@ function App() {
           <Col style={jobDescriptionStyle} xs={10}>Bachelor's Degree, Honours Software Engineering, Co-op</Col>
           <Col xs={14} style={{textAlign: 'right', fontSize: '11px', fontWeight: universitySkillsWeight}}></Col>
         </Row>
-        <Title style={{ margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Projects</Title>
+        <Title style={{ fontSize: titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Projects</Title>
         <Row style={{paddingTop: mainPadding}}>
           <Col style={projectTitleWeight} xs={12}>Talk to Me</Col>
           <Col xs={4}></Col>
