@@ -182,7 +182,7 @@ function App() {
         </Row>
         <Title style={{ fontSize: titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Projects</Title>
         <Row style={{paddingTop: mainPadding}}>
-          <Col style={projectTitleWeight} xs={12}><Link to='https://mathieu-godin.com/licode' style={projectTitleWeight}>Licode</Link></Col>
+          <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/mathieu-godin/Licode-2023' style={projectTitleWeight}>Licode</Link></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={projectDatesWeight}>September 2020 - April 2022</Col>
         </Row>
@@ -191,7 +191,7 @@ function App() {
           <Col xs={9} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>TypeScript • Go • Deno • Python • Docker • SQL • React</Col>
         </Row>
         <Row style={{paddingTop: mainPadding}}>
-          <Col xs={12}><Link to='https://mathieu-godin.com/talk_to_me.mp4' style={projectTitleWeight}>Talk to Me</Link></Col>
+          <Col xs={12}><Link to='https://github.com/mathieu-godin/Talk-to-Me' style={projectTitleWeight}>Talk to Me</Link></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={projectDatesWeight}>August 2022</Col>
         </Row>
