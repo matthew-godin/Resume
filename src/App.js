@@ -15,7 +15,7 @@ const jobDatesWeight = jobUniversityProjectDatesStyle;
 const universityDatesWeight = jobUniversityProjectDatesStyle;
 const projectDatesWeight = jobUniversityProjectDatesStyle;
 
-const jobUniversityProjectTitleStyle = {fontSize: '13px', fontWeight: 'bold'};
+const jobUniversityProjectTitleStyle = {fontSize: '13px', fontWeight: 'bold', textDecoration: 'none', color: 'black'};
 const jobTitleWeight = jobUniversityProjectTitleStyle;
 const universityTitleWeight = jobUniversityProjectTitleStyle;
 const projectTitleWeight = jobUniversityProjectTitleStyle;
@@ -50,9 +50,9 @@ function App() {
     <div
           style={{ paddingLeft: '6%', width: '89%'}}>
         <Title style={{ fontSize: titleFontSize, margin: '0', paddingTop: '3%', paddingBottom: titleSecondaryPadding, fontWeight: 'bold', color: 'black' }} level={5}>Skills</Title>
-        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPadding, paddingBottom: skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Programming Languages</Paragraph> - C# • TypeScript • JavaScript • SQL • Python • Go • C++ • C • Swift • Java • PHP</Paragraph>
+        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPadding, paddingBottom: skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Programming Languages</Paragraph> - C# • TypeScript • JavaScript • SQL • Python • Go • C++ • C • Java • Swift • Kotlin • PHP</Paragraph>
         <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPaddingLarger, paddingBottom: skillsPaddingLarger}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Tools</Paragraph> - Git • Bash • Powershell • Docker • Visual Studio • IntelliJ • Android Studio • Xcode</Paragraph>
-        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPadding, paddingBottom: skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Frameworks</Paragraph> - Node.js • Deno • React • Vue • ASP.NET Core • Laravel • PyTorch • Kafka • Spark • Jest • NUnit • JUnit</Paragraph>
+        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPadding, paddingBottom: skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Frameworks</Paragraph> - Node.js • Deno • React • Vue • ASP.NET Core • Laravel • PyTorch • Kafka • Spark • WebGL • Jest • NUnit • JUnit</Paragraph>
         <Title style={{ fontSize: titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding }} level={5}>Experience</Title>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
           <Col style={jobTitleWeight} xs={12}>Software Developer - Ceridian <Paragraph style={jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
@@ -96,7 +96,7 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>January 2021 - April 2021</Col>
         </Row>
         <Row style={{paddingBottom: secondarySecondaryPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Skillbook Academy's Administrator Dashboard</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Administrator Dashboard</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>TypeScript • PHP • Laravel • Vue • SQL</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
@@ -112,7 +112,7 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>June 2020 - August 2020</Col>
         </Row>
         <Row style={{paddingBottom: secondarySecondaryPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Virtek PDC 2020.08</Col>
+          <Col style={jobDescriptionStyle} xs={16}>PDC 2020.08</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • Python • C++ • WPF • ACIS</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
@@ -128,7 +128,7 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>September 2019 - December 2019</Col>
         </Row>
         <Row style={{paddingBottom: secondarySecondaryPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Bentley APM Mobile Inspections</Col>
+          <Col style={jobDescriptionStyle} xs={16}>APM Mobile Inspections</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>C# • Xamarin • Android • iOS</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
@@ -144,7 +144,7 @@ function App() {
           <Col xs={6} style={jobDatesWeight}>January 2019 - April 2019</Col>
         </Row>
         <Row style={{paddingBottom: secondarySecondaryPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Netint T408 Codensity SSD Automated Tests</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Codensity T408 SSD Automated Tests</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>Python • NVMe</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
@@ -160,7 +160,7 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>May 2018 - August 2018</Col>
         </Row>
         <Row style={{paddingBottom: secondarySecondaryPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Wind River Titanium Cloud Infrastructure</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Titanium Cloud Infrastructure</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>Python • InfluxDB • Grafana</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
@@ -182,49 +182,49 @@ function App() {
         </Row>
         <Title style={{ fontSize: titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Projects</Title>
         <Row style={{paddingTop: mainPadding}}>
-          <Col style={projectTitleWeight} xs={12}>Talk to Me</Col>
-          <Col xs={4}></Col>
-          <Col xs={8} style={projectDatesWeight}>August 2022</Col>
-        </Row>
-        <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={18}>First Place for Most Well-Rounded Hack in North America, Ceridian Hackathon 2022 (HR form chat bot app)</Col>
-          <Col xs={6} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>TypeScript • Swift • iOS • React</Col>
-        </Row>
-        <Row style={{paddingTop: mainPadding}}>
-          <Col style={projectTitleWeight} xs={12}>Licode</Col>
+          <Col style={projectTitleWeight} xs={12}><Link to='https://mathieu-godin.com/licode' style={projectTitleWeight}>Licode</Link></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={projectDatesWeight}>September 2020 - April 2022</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>University of Waterloo Capstone Project (1v1 equivalent of leetcode.com)</Col>
-          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>TypeScript • Go • Deno • Docker • SQL • React</Col>
+          <Col style={jobDescriptionStyle} xs={15}>Coding challenge platform with a 1v1 format (University of Waterloo capstone project)</Col>
+          <Col xs={9} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>TypeScript • Go • Deno • Python • Docker • SQL • React</Col>
         </Row>
         <Row style={{paddingTop: mainPadding}}>
-          <Col style={projectTitleWeight} xs={12}>Machine Learning Models</Col>
+          <Col xs={12}><Link to='https://mathieu-godin.com/talk_to_me.mp4' style={projectTitleWeight}>Talk to Me</Link></Col>
           <Col xs={4}></Col>
-          <Col xs={8} style={projectDatesWeight}>January 2022 - April 2022</Col>
+          <Col xs={8} style={projectDatesWeight}>August 2022</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={18}>Multiple neural network models (CNNs, MLPs, RNNs, GANs, VAEs, GMMs, logistic regression, perceptron)</Col>
-          <Col xs={6} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>PyTorch • Python</Col>
+          <Col style={jobDescriptionStyle} xs={18}>Chat bot app that allows you to easily fill in HR forms (first place, Ceridian Hackathon 2022)</Col>
+          <Col xs={6} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>TypeScript • Swift • iOS • React</Col>
         </Row>
         <Row style={{paddingTop: mainPadding}}>
-          <Col style={projectTitleWeight} xs={12}>Distributed Systems</Col>
-          <Col xs={4}></Col>
-          <Col xs={8} style={projectDatesWeight}>May 2021 - August 2021</Col>
-        </Row>
-        <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Multiple client-server applications (Graph processing, RPCs, Big Data, Fault Tolerance, Streams)</Col>
-          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>Kafka • Spark • Hadoop • Zookeeper • Java</Col>
-        </Row>
-        <Row style={{paddingTop: mainPadding}}>
-          <Col style={projectTitleWeight} xs={12}>Once Upon a Time</Col>
+          <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/mathieu-godin/OnceUponATime' style={projectTitleWeight}>Once Upon a Time</Link></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={projectDatesWeight}>September 2018</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>First Place - Hack the North 2018 (VR app generating scenery according to the story you're telling)</Col>
+          <Col style={jobDescriptionStyle} xs={16}>VR app generating scenery according to the story you're telling (first place, Hack the North 2018)</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>C# • Node.js • IBM Watson • Socket.io • Unity</Col>
+        </Row>
+        <Row style={{paddingTop: mainPadding}}>
+          <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/mathieu-godin/Aya' style={projectTitleWeight}>Aya</Link></Col>
+          <Col xs={4}></Col>
+          <Col xs={8} style={projectDatesWeight}>September 2017</Col>
+        </Row>
+        <Row style={{paddingBottom: mainPadding}}>
+          <Col style={jobDescriptionStyle} xs={18}>Intelligent robot head capable of recognizing people and objects (first place, Hack the North 2017)</Col>
+          <Col xs={6} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>Python • AWS • Embedded Software</Col>
+        </Row>
+        <Row style={{paddingTop: mainPadding}}>
+          <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/mathieu-godin/messenger-latex' style={projectTitleWeight}>Messenger Latex</Link></Col>
+          <Col xs={4}></Col>
+          <Col xs={8} style={projectDatesWeight}>June 2017</Col>
+        </Row>
+        <Row style={{paddingBottom: mainPadding}}>
+          <Col style={jobDescriptionStyle} xs={20}>Google Chrome plugin to write mathematical expressions in Facebook Messenger (first place, MHacks Nano 2017)</Col>
+          <Col xs={4} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>JavaScript</Col>
         </Row>
       </div>
     </>
