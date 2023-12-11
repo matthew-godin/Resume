@@ -179,7 +179,7 @@ function App() {
         <Row style={{paddingBottom: mainPadding}}>
           <Col xs={24}>
             <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
-              <li style={jobAdditionalInformationStyle}>Developed dashboards that track network performance and process counts in real time</li>
+              <li style={jobAdditionalInformationStyle}>Developed dashboards tracking network performance and process counts in real time</li>
             </ul>
           </Col>
         </Row>
