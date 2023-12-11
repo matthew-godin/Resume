@@ -163,7 +163,7 @@ function App() {
         <Row style={{paddingBottom: mainPadding}}>
           <Col xs={24}>
             <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
-              <li style={jobAdditionalInformationStyle}>Developed automated tests that test random and sequential read/write operations</li>
+              <li style={jobAdditionalInformationStyle}>Developed automated tests that validate random and sequential read/write operations</li>
             </ul>
           </Col>
         </Row>
