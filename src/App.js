@@ -238,8 +238,8 @@ function App() {
           <Col xs={8} style={projectDatesWeight}>June 2017</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={20}>Google Chrome plugin to write mathematical expressions in Facebook Messenger (first place, MHacks Nano 2017)</Col>
-          <Col xs={4} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>JavaScript</Col>
+          <Col style={jobDescriptionStyle} xs={22}>Google Chrome plugin that allows you to write mathematical expressions in Facebook Messenger (first place, MHacks Nano 2017)</Col>
+          <Col xs={2} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>JavaScript</Col>
         </Row>
       </div>
     </>
