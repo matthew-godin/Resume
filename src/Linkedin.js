@@ -10,7 +10,7 @@ function Email(props) {
         </span>
         <Link to='https://www.linkedin.com/in/matthew-godin-software-engineer/' style={{textDecoration: 'none'}}>
             <span style={{verticalAlign: 'middle', display: 'inline-block', padding: '0', margin: '0'}}>
-                <Paragraph style={{fontSize: props.fontSize + 'px', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'}}>matthew-godin</Paragraph>
+                <Paragraph style={{fontSize: props.fontSize + 'px', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'}}>matthew-godin-software-engineer</Paragraph>
             </span>
         </Link>
       </>

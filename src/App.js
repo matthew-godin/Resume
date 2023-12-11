@@ -47,7 +47,7 @@ const titleSecondaryPadding = '0.15%';
 const skillsPadding = '0.15%';
 const skillsPaddingLarger = '0.05%';
 
-const headlineFontSize = 14;
+const headlineFontSize = 12;
 
 function App() {
   return (
