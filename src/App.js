@@ -55,7 +55,7 @@ function App() {
     <div style={{ margin: '0', width: '100%', backgroundColor: '#242424'}}>
       <div style={{ paddingBottom: '2%', paddingLeft: '6%', paddingTop: '4%', marginTop: 0, marginBottom: 0, width: '95%'}}>
         <Title level={1} style={{marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500'}}>Matthew Godin</Title>
-        <span><Website fontSize={headlineFontSize} /><Dot1 fontSize={headlineFontSize} /><Email fontSize={headlineFontSize} /><Dot2 fontSize={headlineFontSize} /><Linkedin fontSize={headlineFontSize} /><Dot2 fontSize={headlineFontSize} /><Github fontSize={headlineFontSize} /></span>
+        <span><Email fontSize={headlineFontSize} /><Dot2 fontSize={headlineFontSize} /><Linkedin fontSize={headlineFontSize} /><Dot2 fontSize={headlineFontSize} /><Github fontSize={headlineFontSize} /><Dot1 fontSize={headlineFontSize} /><Website fontSize={headlineFontSize} /></span>
       </div>
     </div>
     <div
