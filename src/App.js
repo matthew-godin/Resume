@@ -109,7 +109,7 @@ function App() {
           <Col xs={8} style={jobDatesWeight}>January 2021 - April 2021</Col>
         </Row>
         <Row style={{paddingBottom: secondarySecondaryPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>Administrator Dashboard</Col>
+          <Col style={jobDescriptionStyle} xs={16}>Skillbook Academy's Website</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: jobSkillsWeight}}>TypeScript • PHP • Laravel • Vue • SQL</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
