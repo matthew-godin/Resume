@@ -211,7 +211,7 @@ function App() {
           <Col xs={8} style={projectDatesWeight}>August 2022</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={18}>Chat bot app that allows you to easily fill in HR forms (first place, Ceridian Hackathon 2022)</Col>
+          <Col style={jobDescriptionStyle} xs={18}>Chat bot app that simplifies filling in HR forms (first place, Ceridian Hackathon 2022)</Col>
           <Col xs={6} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>TypeScript • Swift • iOS • React</Col>
         </Row>
         <Row style={{paddingTop: mainPadding}}>
@@ -220,7 +220,7 @@ function App() {
           <Col xs={8} style={projectDatesWeight}>September 2018</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>VR app generating scenery according to the story you're telling (first place, Hack the North 2018)</Col>
+          <Col style={jobDescriptionStyle} xs={16}>VR app generating scenery according to the story being told (first place, Hack the North 2018)</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>C# • Node.js • IBM Watson • Socket.io • Unity</Col>
         </Row>
         <Row style={{paddingTop: mainPadding}}>
@@ -238,7 +238,7 @@ function App() {
           <Col xs={8} style={projectDatesWeight}>June 2017</Col>
         </Row>
         <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={22}>Google Chrome plugin that allows you to write mathematical expressions in Facebook Messenger (first place, MHacks Nano 2017)</Col>
+          <Col style={jobDescriptionStyle} xs={22}>Google Chrome plugin that allows writing mathematical expressions in Facebook Messenger (first place, MHacks Nano 2017)</Col>
           <Col xs={2} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>JavaScript</Col>
         </Row>
       </div>
