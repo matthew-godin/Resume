@@ -60,7 +60,7 @@ function App() {
     </div>
     <div
           style={{ paddingLeft: '6%', width: '89%'}}>
-        <Title style={{ fontSize: titleFontSize, margin: '0', paddingTop: '3%', paddingBottom: titleSecondaryPadding, fontWeight: 'bold', color: 'black' }} level={5}>Skills</Title>
+        <Title style={{ fontSize: titleFontSize, margin: '0', paddingTop: '3%', paddingBottom: titleSecondaryPadding, fontWeight: 'bold', color: 'black' }} level={5}>Skills Skills</Title>
         <hr style={hrStyle}/>
         <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPadding, paddingBottom: skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Programming Languages</Paragraph> - C# • TypeScript • JavaScript • SQL • Python • Go • C++ • C • Java • Swift • Kotlin • PHP</Paragraph>
         <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPaddingLarger, paddingBottom: skillsPaddingLarger}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Tools</Paragraph> - Git • Bash • Powershell • Docker • VS Code • Visual Studio • IntelliJ • Android Studio • Xcode</Paragraph>
