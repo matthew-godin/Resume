@@ -12,7 +12,7 @@ function Education(props) {
           <Col xs={8} style={props.universityDatesWeight}>September 2017 - April 2022</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
-          <Col style={props.jobDescriptionStyle} xs={10}>Bachelor's Degree, Honours Software Engineering, Co-op</Col>
+          <Col style={props.jobDescriptionStyle} xs={10}>Bachelor's Degree, Honours Software Engineering</Col>
           <Col xs={14} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.universitySkillsWeight}}></Col>
         </Row>
     </>

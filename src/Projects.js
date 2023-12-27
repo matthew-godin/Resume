@@ -10,7 +10,7 @@ function Projects(props) {
         <Row style={{paddingTop: props.mainPadding}}>
           <Col style={props.projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/Licode-2023' style={props.projectTitleWeight}>Licode</Link></Col>
           <Col xs={4}></Col>
-          <Col xs={8} style={props.projectDatesWeight}>September 2020 - April 2022</Col>
+          <Col xs={8} style={props.projectDatesWeight}>September 2020 - Present</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
           <Col style={props.jobDescriptionStyle} xs={15}>Coding challenge platform with a 1v1 format (University of Waterloo capstone project)</Col>
