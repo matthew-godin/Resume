@@ -1,4 +1,4 @@
-import { Typography } from 'antd';
+import { Typography, Col, Row } from 'antd';
 const { Title, Paragraph } = Typography;
 
 function Education(props) {
