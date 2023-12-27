@@ -1,6 +1,5 @@
 import './App.css';
 import { Typography, Col, Row } from 'antd';
-import { Link } from 'react-router-dom';
 import Website from './Website';
 import Email from './Email';
 import Dot1 from './Dot1';
