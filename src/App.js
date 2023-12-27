@@ -66,7 +66,8 @@ function App() {
           skillsPaddingLarger={skillsPaddingLarger} />
         <Experience hrStyle={hrStyle} mainPadding={mainPadding} secondaryPadding={secondaryPadding} secondarySecondaryPadding={secondarySecondaryPadding}
           titleFontSize={titleFontSize} titlePadding={titlePadding} titleSecondaryPadding={titleSecondaryPadding} jobDescriptionStyle={jobDescriptionStyle}
-          jobSkillsWeight={jobSkillsWeight} jobAdditionalInformationStyle={jobAdditionalInformationStyle} jobTitleWeight={jobTitleWeight} jobDatesWeight={jobDatesWeight} />
+          jobSkillsWeight={jobSkillsWeight} jobAdditionalInformationStyle={jobAdditionalInformationStyle} jobTitleWeight={jobTitleWeight} jobDatesWeight={jobDatesWeight}
+          jobCityStyle={jobCityStyle} />
         <Title style={{ fontSize: titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Education</Title>
         <hr style={hrStyle}/>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>

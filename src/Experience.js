@@ -7,7 +7,7 @@ function Experience(props) {
         <Title style={{ fontSize: props.titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: props.titlePadding, paddingBottom: props.titleSecondaryPadding }} level={5}>Experience</Title>
         <hr style={props.hrStyle}/>
         <Row style={{paddingTop: props.mainPadding, paddingBottom: props.secondaryPadding}}>
-          <Col style={props.jobTitleWeight} xs={12}>Software Developer - Ceridian <Paragraph style={jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
+          <Col style={props.jobTitleWeight} xs={12}>Software Developer - Ceridian <Paragraph style={props.jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={props.jobDatesWeight}>May 2022 - Present</Col>
         </Row>
@@ -27,7 +27,7 @@ function Experience(props) {
           </Col>
         </Row>
         <Row style={{paddingTop: props.mainPadding, paddingBottom: props.secondaryPadding}}>
-          <Col style={props.jobTitleWeight} xs={12}>Software Developer Intern - Ceridian <Paragraph style={jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
+          <Col style={props.jobTitleWeight} xs={12}>Software Developer Intern - Ceridian <Paragraph style={props.jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={props.jobDatesWeight}>September 2021 - December 2021</Col>
         </Row>
@@ -43,7 +43,7 @@ function Experience(props) {
           </Col>
         </Row>
         <Row style={{paddingTop: props.mainPadding, paddingBottom: props.secondaryPadding}}>
-          <Col style={props.jobTitleWeight} xs={12}>Software Developer Intern - Skillbook Academy <Paragraph style={jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
+          <Col style={props.jobTitleWeight} xs={12}>Software Developer Intern - Skillbook Academy <Paragraph style={props.jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={props.jobDatesWeight}>January 2021 - April 2021</Col>
         </Row>
@@ -59,7 +59,7 @@ function Experience(props) {
           </Col>
         </Row>
         <Row style={{paddingTop: props.mainPadding, paddingBottom: props.secondaryPadding}}>
-          <Col style={props.jobTitleWeight} xs={12}>Software Developer Intern - Virtek Vision <Paragraph style={jobCityStyle}>&ensp;Waterloo, ON</Paragraph></Col>
+          <Col style={props.jobTitleWeight} xs={12}>Software Developer Intern - Virtek Vision <Paragraph style={props.jobCityStyle}>&ensp;Waterloo, ON</Paragraph></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={props.jobDatesWeight}>June 2020 - August 2020</Col>
         </Row>
@@ -75,7 +75,7 @@ function Experience(props) {
           </Col>
         </Row>
         <Row style={{paddingTop: props.mainPadding, paddingBottom: props.secondaryPadding}}>
-          <Col style={props.jobTitleWeight} xs={12}>Software Developer Intern - Bentley Systems <Paragraph style={jobCityStyle}>&ensp;Burlington, ON</Paragraph></Col>
+          <Col style={props.jobTitleWeight} xs={12}>Software Developer Intern - Bentley Systems <Paragraph style={props.jobCityStyle}>&ensp;Burlington, ON</Paragraph></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={props.jobDatesWeight}>September 2019 - December 2019</Col>
         </Row>
@@ -91,7 +91,7 @@ function Experience(props) {
           </Col>
         </Row>
         <Row style={{paddingTop: props.mainPadding, paddingBottom: props.secondaryPadding}}>
-          <Col style={props.jobTitleWeight} xs={14}>Software Developer Intern - Netint Technologies <Paragraph style={jobCityStyle}>&ensp;Markham, ON</Paragraph></Col>
+          <Col style={props.jobTitleWeight} xs={14}>Software Developer Intern - Netint Technologies <Paragraph style={props.jobCityStyle}>&ensp;Markham, ON</Paragraph></Col>
           <Col xs={4}></Col>
           <Col xs={6} style={props.jobDatesWeight}>January 2019 - April 2019</Col>
         </Row>
@@ -107,7 +107,7 @@ function Experience(props) {
           </Col>
         </Row>
         <Row style={{paddingTop: props.mainPadding, paddingBottom: props.secondaryPadding}}>
-          <Col style={props.jobTitleWeight} xs={12}>Software Developer Intern - Wind River Systems <Paragraph style={jobCityStyle}>&ensp;Ottawa, ON</Paragraph></Col>
+          <Col style={props.jobTitleWeight} xs={12}>Software Developer Intern - Wind River Systems <Paragraph style={props.jobCityStyle}>&ensp;Ottawa, ON</Paragraph></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={props.jobDatesWeight}>May 2018 - August 2018</Col>
         </Row>
