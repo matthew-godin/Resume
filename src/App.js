@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom';
 import Website from './Website';
 import Email from './Email';
 import Dot1 from './Dot1';
-import Phone from './Phone';
 import Dot2 from './Dot2';
 import Linkedin from './Linkedin';
 import Github from './Github';
+import Skills from './Skills';
+
 const { Title, Paragraph } = Typography;
 
 const jobUniversityProjectSkillsWeight = '500';
@@ -60,11 +61,7 @@ function App() {
     </div>
     <div
           style={{ paddingLeft: '6%', width: '89%'}}>
-        <Title style={{ fontSize: titleFontSize, margin: '0', paddingTop: '3%', paddingBottom: titleSecondaryPadding, fontWeight: 'bold', color: 'black' }} level={5}>Skills</Title>
-        <hr style={hrStyle}/>
-        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPadding, paddingBottom: skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Programming Languages</Paragraph> - C# • TypeScript • JavaScript • SQL • Python • Go • C++ • C • Java • Swift • Kotlin • PHP</Paragraph>
-        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPaddingLarger, paddingBottom: skillsPaddingLarger}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Tools</Paragraph> - Git • Bash • Powershell • Docker • VS Code • Visual Studio • IntelliJ • Android Studio • Xcode</Paragraph>
-        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: skillsPadding, paddingBottom: skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>Frameworks</Paragraph> - Node.js • Deno • React • Vue • ASP.NET Core • Laravel • PyTorch • Kafka • Spark • WebGL • Jest • NUnit • JUnit</Paragraph>
+        <Skills titleFontSize={titleFontSize} titleSecondaryPadding={titleSecondaryPadding} skillsPadding={skillsPadding} skillsPaddingLarger={skillsPaddingLarger} />
         <Title style={{ fontSize: titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding }} level={5}>Experience</Title>
         <hr style={hrStyle}/>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
