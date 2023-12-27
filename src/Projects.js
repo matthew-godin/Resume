@@ -13,7 +13,7 @@ function Projects(props) {
           <Col xs={8} style={props.projectDatesWeight}>September 2020 - April 2022</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={15}>Coding challenge platform with a 1v1 format (University of Waterloo capstone project)</Col>
+          <Col style={props.jobDescriptionStyle} xs={15}>Coding challenge platform with a 1v1 format (University of Waterloo capstone project)</Col>
           <Col xs={9} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>TypeScript • Go • Deno • Python • Docker • SQL • React</Col>
         </Row>
         <Row style={{paddingTop: props.mainPadding}}>
@@ -22,7 +22,7 @@ function Projects(props) {
           <Col xs={8} style={props.projectDatesWeight}>August 2022</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={18}>Chat bot app that simplifies filling in HR forms (first place, Ceridian Hackathon 2022)</Col>
+          <Col style={props.jobDescriptionStyle} xs={18}>Chat bot app that simplifies filling in HR forms (first place, Ceridian Hackathon 2022)</Col>
           <Col xs={6} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>TypeScript • Swift • iOS • React</Col>
         </Row>
         <Row style={{paddingTop: props.mainPadding}}>
@@ -31,7 +31,7 @@ function Projects(props) {
           <Col xs={8} style={props.projectDatesWeight}>September 2018</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={16}>VR app generating scenery according to the story being told (first place, Hack the North 2018)</Col>
+          <Col style={props.jobDescriptionStyle} xs={16}>VR app generating scenery according to the story being told (first place, Hack the North 2018)</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>C# • Node.js • IBM Watson • Socket.io • Unity</Col>
         </Row>
         <Row style={{paddingTop: props.mainPadding}}>
@@ -40,7 +40,7 @@ function Projects(props) {
           <Col xs={8} style={props.projectDatesWeight}>September 2017</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={18}>Intelligent robot head capable of recognizing people and objects (first place, Hack the North 2017)</Col>
+          <Col style={props.jobDescriptionStyle} xs={18}>Intelligent robot head capable of recognizing people and objects (first place, Hack the North 2017)</Col>
           <Col xs={6} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>Python • AWS • Embedded Software</Col>
         </Row>
         <Row style={{paddingTop: props.mainPadding}}>
@@ -49,7 +49,7 @@ function Projects(props) {
           <Col xs={8} style={props.projectDatesWeight}>June 2017</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={22}>Google Chrome plugin that allows writing mathematical expressions in Facebook Messenger (first place, MHacks Nano 2017)</Col>
+          <Col style={props.jobDescriptionStyle} xs={22}>Google Chrome plugin that allows writing mathematical expressions in Facebook Messenger (first place, MHacks Nano 2017)</Col>
           <Col xs={2} style={{textAlign: 'right', fontSize: '11px', fontWeight: projectSkillsWeight}}>JavaScript</Col>
         </Row>
     </>
