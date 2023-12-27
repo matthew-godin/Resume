@@ -61,7 +61,7 @@ function App() {
     </div>
     <div
           style={{ paddingLeft: '6%', width: '89%'}}>
-        <Skills titleFontSize={titleFontSize} titleSecondaryPadding={titleSecondaryPadding} skillsPadding={skillsPadding} skillsPaddingLarger={skillsPaddingLarger} />
+        <Skills hrStyle={hrStyle} titleFontSize={titleFontSize} titleSecondaryPadding={titleSecondaryPadding} skillsPadding={skillsPadding} skillsPaddingLarger={skillsPaddingLarger} />
         <Title style={{ fontSize: titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding }} level={5}>Experience</Title>
         <hr style={hrStyle}/>
         <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
