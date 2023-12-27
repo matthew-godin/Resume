@@ -13,4 +13,4 @@ function Skills(props) {
   );
 }
 
-export default Dot1;
+export default Skills;
