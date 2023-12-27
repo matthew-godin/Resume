@@ -5,7 +5,7 @@ function Education(props) {
   return (
     <>
         <Title style={{ fontSize: props.titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: props.titlePadding, paddingBottom: props.titleSecondaryPadding}} level={5}>Education</Title>
-        <hr style={hrStyle}/>
+        <hr style={props.hrStyle}/>
         <Row style={{paddingTop: props.mainPadding, paddingBottom: props.secondaryPadding}}>
           <Col style={props.universityTitleWeight} xs={12}>University of Waterloo <Paragraph style={universityCityStyle}>&ensp;Waterloo, ON</Paragraph></Col>
           <Col xs={4}></Col>

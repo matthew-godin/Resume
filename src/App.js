@@ -69,7 +69,7 @@ function App() {
           titleFontSize={titleFontSize} titlePadding={titlePadding} titleSecondaryPadding={titleSecondaryPadding} jobDescriptionStyle={jobDescriptionStyle}
           jobSkillsWeight={jobSkillsWeight} jobAdditionalInformationStyle={jobAdditionalInformationStyle} jobTitleWeight={jobTitleWeight} jobDatesWeight={jobDatesWeight}
           jobCityStyle={jobCityStyle} />
-        <Education titleFontSize={titleFontSize} titlePadding={titlePadding} titleSecondaryPadding={titleSecondaryPadding} mainPadding={mainPadding}
+        <Education hrStyle={hrStyle} titleFontSize={titleFontSize} titlePadding={titlePadding} titleSecondaryPadding={titleSecondaryPadding} mainPadding={mainPadding}
           secondaryPadding={secondaryPadding} universityTitleWeight={universityTitleWeight} universityDatesWeight={universityDatesWeight}
           jobDescriptionStyle={jobDescriptionStyle} universitySkillsWeight={universitySkillsWeight} />
         <Title style={{ fontSize: titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Projects</Title>
