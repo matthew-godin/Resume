@@ -5,5 +5,9 @@ chrome --headless --print-to-pdf="$HOME\resume\matthew-godin-resume.pdf" --no-pd
 while (!(Test-Path .\matthew-godin-resume.pdf -PathType Leaf)) { Start-Sleep 1 }
 pm2 delete all
 git add .
-git commit -m "update"
+if ($args[0] -eq $null) {
+    git commit -m "update"
+} else {
+    git commit -m $args[0]
+}
 git push origin master
