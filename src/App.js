@@ -72,13 +72,13 @@ function App() {
     <div style={{ paddingLeft: '6%', width: '89%'}}>
         <Skills hrStyle={hrStyle} titleFontSize={titleFontSize} titleSecondaryPadding={titleSecondaryPadding} skillsPadding={skillsPadding}
           skillsPaddingLarger={skillsPaddingLarger} />
+        <Education hrStyle={hrStyle} titleFontSize={titleFontSize} titlePadding={titlePadding} titleSecondaryPadding={titleSecondaryPadding} mainPadding={mainPadding}
+          secondaryPadding={secondaryPadding} universityTitleWeight={universityTitleWeight} universityDatesWeight={universityDatesWeight}
+          jobDescriptionStyle={jobDescriptionStyle} universitySkillsWeight={universitySkillsWeight} universityCityStyle={universityCityStyle} />
         <Experience hrStyle={hrStyle} mainPadding={mainPadding} secondaryPadding={secondaryPadding} secondarySecondaryPadding={secondarySecondaryPadding}
           titleFontSize={titleFontSize} titlePadding={titlePadding} titleSecondaryPadding={titleSecondaryPadding} jobDescriptionStyle={jobDescriptionStyle}
           jobSkillsWeight={jobSkillsWeight} jobAdditionalInformationStyle={jobAdditionalInformationStyle} jobTitleWeight={jobTitleWeight} jobDatesWeight={jobDatesWeight}
           jobCityStyle={jobCityStyle} />
-        <Education hrStyle={hrStyle} titleFontSize={titleFontSize} titlePadding={titlePadding} titleSecondaryPadding={titleSecondaryPadding} mainPadding={mainPadding}
-          secondaryPadding={secondaryPadding} universityTitleWeight={universityTitleWeight} universityDatesWeight={universityDatesWeight}
-          jobDescriptionStyle={jobDescriptionStyle} universitySkillsWeight={universitySkillsWeight} universityCityStyle={universityCityStyle} />
         <Projects hrStyle={hrStyle} titleFontSize={titleFontSize} titlePadding={titlePadding} titleSecondaryPadding={titleSecondaryPadding} mainPadding={mainPadding}
           projectTitleWeight={projectTitleWeight} projectDatesWeight={projectDatesWeight} jobDescriptionStyle={jobDescriptionStyle} projectSkillsWeight={projectSkillsWeight} />
       </div>
