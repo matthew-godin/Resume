@@ -80,9 +80,9 @@ function App() {
           <Col xs={24}>
             <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
               <li style={jobAdditionalInformationStyle}>Developed LaunchDarkly APIs enabling the release of features to specific clients in a few clicks</li>
-              <li style={jobAdditionalInformationStyle}>Revamped new and previous screens to follow the best accessibility standards thoroughly by conforming to WAI's WCAG 2.1</li>
               <li style={jobAdditionalInformationStyle}>Developed React grids and dialogs that fetch and send data to the back end</li>
               <li style={jobAdditionalInformationStyle}>Developed REST APIs and SQL Server queries performing sorts, filters, and business logic</li>
+              <li style={jobAdditionalInformationStyle}>Revamped new and previous screens to follow the best accessibility standards thoroughly by conforming to WAI's WCAG 2.1</li>
               <li style={jobAdditionalInformationStyle}>Developed an interactive dialog allowing the insertion of different tokens to send personalized reward messages</li>
             </ul>
           </Col>
