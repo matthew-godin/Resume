@@ -71,7 +71,7 @@ function App() {
           jobCityStyle={jobCityStyle} />
         <Education hrStyle={hrStyle} titleFontSize={titleFontSize} titlePadding={titlePadding} titleSecondaryPadding={titleSecondaryPadding} mainPadding={mainPadding}
           secondaryPadding={secondaryPadding} universityTitleWeight={universityTitleWeight} universityDatesWeight={universityDatesWeight}
-          jobDescriptionStyle={jobDescriptionStyle} universitySkillsWeight={universitySkillsWeight} />
+          jobDescriptionStyle={jobDescriptionStyle} universitySkillsWeight={universitySkillsWeight} universityCityStyle={universityCityStyle} />
         <Title style={{ fontSize: titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Projects</Title>
         <hr style={hrStyle}/>
         <Row style={{paddingTop: mainPadding}}>
