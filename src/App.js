@@ -80,7 +80,7 @@ function App() {
           secondaryPadding={secondaryPadding} universityTitleWeight={universityTitleWeight} universityDatesWeight={universityDatesWeight}
           jobDescriptionStyle={jobDescriptionStyle} universitySkillsWeight={universitySkillsWeight} universityCityStyle={universityCityStyle} />
         <Projects hrStyle={hrStyle} titleFontSize={titleFontSize} titlePadding={titlePadding} titleSecondaryPadding={titleSecondaryPadding} mainPadding={mainPadding}
-          projectTitleWeight={projectTitleWeight} projectDatesWeight={projectDatesWeight} jobDescriptionStyle={jobDescriptionStyle} />
+          projectTitleWeight={projectTitleWeight} projectDatesWeight={projectDatesWeight} jobDescriptionStyle={jobDescriptionStyle} projectSkillsWeight={projectSkillsWeight} />
       </div>
     </>
   );
