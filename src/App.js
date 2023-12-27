@@ -9,6 +9,7 @@ import Linkedin from './Linkedin';
 import Github from './Github';
 import Skills from './Skills';
 import Experience from './Experience';
+import Education from './Education';
 
 const { Title, Paragraph } = Typography;
 
@@ -68,17 +69,9 @@ function App() {
           titleFontSize={titleFontSize} titlePadding={titlePadding} titleSecondaryPadding={titleSecondaryPadding} jobDescriptionStyle={jobDescriptionStyle}
           jobSkillsWeight={jobSkillsWeight} jobAdditionalInformationStyle={jobAdditionalInformationStyle} jobTitleWeight={jobTitleWeight} jobDatesWeight={jobDatesWeight}
           jobCityStyle={jobCityStyle} />
-        <Title style={{ fontSize: titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Education</Title>
-        <hr style={hrStyle}/>
-        <Row style={{paddingTop: mainPadding, paddingBottom: secondaryPadding}}>
-          <Col style={universityTitleWeight} xs={12}>University of Waterloo <Paragraph style={universityCityStyle}>&ensp;Waterloo, ON</Paragraph></Col>
-          <Col xs={4}></Col>
-          <Col xs={8} style={universityDatesWeight}>September 2017 - April 2022</Col>
-        </Row>
-        <Row style={{paddingBottom: mainPadding}}>
-          <Col style={jobDescriptionStyle} xs={10}>Bachelor's Degree, Honours Software Engineering, Co-op</Col>
-          <Col xs={14} style={{textAlign: 'right', fontSize: '11px', fontWeight: universitySkillsWeight}}></Col>
-        </Row>
+        <Education titleFontSize={titleFontSize} titlePadding={titlePadding} titleSecondaryPadding={titleSecondaryPadding} mainPadding={mainPadding}
+          secondaryPadding={secondaryPadding} universityTitleWeight={universityTitleWeight} universityDatesWeight={universityDatesWeight}
+          jobDescriptionStyle={jobDescriptionStyle} universitySkillsWeight={universitySkillsWeight} />
         <Title style={{ fontSize: titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: titlePadding, paddingBottom: titleSecondaryPadding}} level={5}>Projects</Title>
         <hr style={hrStyle}/>
         <Row style={{paddingTop: mainPadding}}>
