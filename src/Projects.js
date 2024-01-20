@@ -1,6 +1,6 @@
 import { Typography, Col, Row } from 'antd';
-const { Title } = Typography;
 import { Link } from 'react-router-dom';
+const { Title } = Typography;
 
 function Projects(props) {
   return (
