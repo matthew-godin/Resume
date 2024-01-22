@@ -8,7 +8,7 @@ function Projects(props) {
         <Title style={{ fontSize: props.titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: props.titlePadding, paddingBottom: props.titleSecondaryPadding}} level={5}>Projects</Title>
         <hr style={props.hrStyle}/>
         <Row style={{paddingTop: props.mainPadding}}>
-          <Col style={props.projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/Licode-2023' style={props.projectTitleWeight}>Licode</Link></Col>
+          <Col style={props.projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/Licode' style={props.projectTitleWeight}>Licode</Link></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={props.projectDatesWeight}>September 2020 - Present</Col>
         </Row>
@@ -26,7 +26,7 @@ function Projects(props) {
           <Col xs={6} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.projectSkillsWeight}}>TypeScript • Swift • iOS • React</Col>
         </Row>
         <Row style={{paddingTop: props.mainPadding}}>
-          <Col style={props.projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/OnceUponATime' style={props.projectTitleWeight}>Once Upon a Time</Link></Col>
+          <Col style={props.projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/Once-Upon-a-Time' style={props.projectTitleWeight}>Once Upon a Time</Link></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={props.projectDatesWeight}>September 2018</Col>
         </Row>
@@ -44,7 +44,7 @@ function Projects(props) {
           <Col xs={6} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.projectSkillsWeight}}>Python • AWS • Embedded Software</Col>
         </Row>
         <Row style={{paddingTop: props.mainPadding}}>
-          <Col style={props.projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/messenger-latex' style={props.projectTitleWeight}>Messenger Latex</Link></Col>
+          <Col style={props.projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/Messenger-Latex' style={props.projectTitleWeight}>Messenger Latex</Link></Col>
           <Col xs={4}></Col>
           <Col xs={8} style={props.projectDatesWeight}>June 2017</Col>
         </Row>
