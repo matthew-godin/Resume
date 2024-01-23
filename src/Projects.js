@@ -41,7 +41,7 @@ function Projects(props) {
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
           <Col style={props.jobDescriptionStyle} xs={18}>Intelligent robot head capable of recognizing people and objects (first place, Hack the North 2017)</Col>
-          <Col xs={6} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.projectSkillsWeight}}>Python • AWS • Embedded Software</Col>
+          <Col xs={6} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.projectSkillsWeight}}>Python • AWS</Col>
         </Row>
         <Row style={{paddingTop: props.mainPadding}}>
           <Col style={props.projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/Messenger-Latex' style={props.projectTitleWeight}>Messenger Latex</Link></Col>
