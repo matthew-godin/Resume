@@ -31,8 +31,8 @@ function Projects(props) {
           <Col xs={8} style={props.projectDatesWeight}>September 2018</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
-          <Col style={props.jobDescriptionStyle} xs={15}>VR app generating scenery according to the story being told (first place, Hack the North 2018)</Col>
-          <Col xs={9} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.projectSkillsWeight}}>C# • Unity • JavaScript • Node.js • IBM Watson</Col>
+          <Col style={props.jobDescriptionStyle} xs={16}>VR app generating scenery according to the story being told (first place, Hack the North 2018)</Col>
+          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.projectSkillsWeight}}>C# • Unity • JavaScript • Node.js • IBM Watson</Col>
         </Row>
         <Row style={{paddingTop: props.mainPadding}}>
           <Col style={props.projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/Aya' style={props.projectTitleWeight}>Aya</Link></Col>
