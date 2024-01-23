@@ -13,7 +13,7 @@ function Experience(props) {
         </Row>
         <Row style={{paddingBottom: props.secondarySecondaryPadding}}>
           <Col style={props.jobDescriptionStyle} xs={16}>Dayforce Candidate Management, Guidelines and Message Center</Col>
-          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.jobSkillsWeight}}>TypeScript • React • C# • ASP.NET Core • SQL</Col>
+          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.jobSkillsWeight}}>C# • ASP.NET Core • TypeScript • React • SQL</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
           <Col xs={24}>
@@ -33,7 +33,7 @@ function Experience(props) {
         </Row>
         <Row style={{paddingBottom: props.secondarySecondaryPadding}}>
           <Col style={props.jobDescriptionStyle} xs={16}>Dayforce Reward Letters and Compensation Cycles</Col>
-          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.jobSkillsWeight}}>TypeScript • React • C# • ASP.NET Core • SQL</Col>
+          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.jobSkillsWeight}}>C# • ASP.NET Core • TypeScript • React • SQL</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
           <Col xs={24}>
@@ -49,7 +49,7 @@ function Experience(props) {
         </Row>
         <Row style={{paddingBottom: props.secondarySecondaryPadding}}>
           <Col style={props.jobDescriptionStyle} xs={16}>Skillbook Academy's Website</Col>
-          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.jobSkillsWeight}}>TypeScript • Vue • PHP • Laravel • SQL</Col>
+          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.jobSkillsWeight}}>PHP • Laravel • TypeScript • Vue • SQL</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
           <Col xs={24}>
@@ -65,7 +65,7 @@ function Experience(props) {
         </Row>
         <Row style={{paddingBottom: props.secondarySecondaryPadding}}>
           <Col style={props.jobDescriptionStyle} xs={16}>PDC 2020.08</Col>
-          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.jobSkillsWeight}}>C# • WPF • C++ • ACIS • Python</Col>
+          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.jobSkillsWeight}}>C++ • ACIS • C# • WPF • Python</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
           <Col xs={24}>
