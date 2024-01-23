@@ -14,7 +14,7 @@ function Projects(props) {
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
           <Col style={props.jobDescriptionStyle} xs={15}>Coding challenge platform with a 1v1 format (University of Waterloo capstone project)</Col>
-          <Col xs={9} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.projectSkillsWeight}}>TypeScript • React • Deno • Go • Python • Docker • SQL</Col>
+          <Col xs={9} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.projectSkillsWeight}}>TypeScript • Deno • React • Go • Python • Docker • SQL</Col>
         </Row>
         <Row style={{paddingTop: props.mainPadding}}>
           <Col xs={12}><Link to='https://github.com/matthew-godin/Talk-to-Me' style={props.projectTitleWeight}>Talk to Me</Link></Col>
