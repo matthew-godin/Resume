@@ -12,7 +12,7 @@ function Experience(props) {
           <Col xs={8} style={props.jobDatesWeight}>May 2022 - Present</Col>
         </Row>
         <Row style={{paddingBottom: props.secondarySecondaryPadding}}>
-          <Col style={props.jobDescriptionStyle} xs={16}>Dayforce Candidate Management, Guidelines and Message Center</Col>
+          <Col style={props.jobDescriptionStyle} xs={16}>Dayforce Candidate Management, Compensation Guidelines and Message Center</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.jobSkillsWeight}}>C# • ASP.NET Core • TypeScript • React • SQL</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
