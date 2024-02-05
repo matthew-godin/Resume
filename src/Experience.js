@@ -13,7 +13,7 @@ function Experience(props) {
         </Row>
         <Row style={{paddingBottom: props.secondarySecondaryPadding}}>
           <Col style={props.jobDescriptionStyle} xs={16}>Dayforce Candidate Management, Compensation Guidelines and Message Center</Col>
-          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.jobSkillsWeight}}>C# • ASP.NET • TypeScript • React • SQL</Col>
+          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.jobSkillsWeight}}>C# • TypeScript • React • ASP.NET • SQL</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
           <Col xs={24}>
@@ -33,7 +33,7 @@ function Experience(props) {
         </Row>
         <Row style={{paddingBottom: props.secondarySecondaryPadding}}>
           <Col style={props.jobDescriptionStyle} xs={16}>Dayforce Reward Letters and Compensation Cycles</Col>
-          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.jobSkillsWeight}}>C# • ASP.NET • TypeScript • React • SQL</Col>
+          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.jobSkillsWeight}}>C# • TypeScript • React • ASP.NET • SQL</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
           <Col xs={24}>
