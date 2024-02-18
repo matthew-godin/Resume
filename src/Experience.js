@@ -21,8 +21,8 @@ function Experience(props) {
               <li style={props.jobAdditionalInformationStyle}>Developed REST APIs and SQL Server queries performing sorts, filters, and business logic</li>
               <li style={props.jobAdditionalInformationStyle}>Developed LaunchDarkly APIs enabling the release of features to specific clients in a few clicks</li>
               <li style={props.jobAdditionalInformationStyle}>Revamped new and previous screens to follow the best accessibility standards thoroughly by conforming to WAI's WCAG 2.1</li>
-              <li style={props.jobAdditionalInformationStyle}>Developed React grids that fetch and send data to the back end</li>
-              <li style={props.jobAdditionalInformationStyle}>Developed interactive dialogs allowing the insertion of different tokens to send personalized reward letter messages</li>
+              <li style={props.jobAdditionalInformationStyle}>Developed React components including grids, toolbars and dialogs that fetch and send data to the back end</li>
+              <li style={props.jobAdditionalInformationStyle}>Developed interactive dialogs to send personalized reward letter messages through the insertion of different template tokens</li>
             </ul>
           </Col>
         </Row>
@@ -38,7 +38,7 @@ function Experience(props) {
         <Row style={{paddingBottom: props.mainPadding}}>
           <Col xs={24}>
             <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
-              <li style={props.jobAdditionalInformationStyle}>Upgraded REST APIs to send additional data and developed new features such as Reward Letter Equity Details using IronPDF</li>
+              <li style={props.jobAdditionalInformationStyle}>Developed new features such as Reward Letter Equity Details using IronPDF, front-end components and REST APIs sending new sets of data</li>
             </ul>
           </Col>
         </Row>
@@ -70,7 +70,7 @@ function Experience(props) {
         <Row style={{paddingBottom: props.mainPadding}}>
           <Col xs={24}>
             <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
-              <li style={props.jobAdditionalInformationStyle}>Developed new features including Center Snap Mode and Projected Text, improved the installer and reduced the build time by 88%</li>
+              <li style={props.jobAdditionalInformationStyle}>Developed new features including Center Snap Mode and Automatic Projected Text, improved the installer and reduced the build time by 88%</li>
             </ul>
           </Col>
         </Row>
@@ -81,12 +81,12 @@ function Experience(props) {
         </Row>
         <Row style={{paddingBottom: props.secondarySecondaryPadding}}>
           <Col style={props.jobDescriptionStyle} xs={16}>APM Mobile Inspections</Col>
-          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.jobSkillsWeight}}>C# • Xamarin • Android • iOS</Col>
+          <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.jobSkillsWeight}}>C# • Xamarin • Android • iOS • YAML</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
           <Col xs={24}>
             <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
-              <li style={props.jobAdditionalInformationStyle}>Developed dark mode, ability to scan distant barcodes by improving the Zxing.Net.Mobile library and Collection Requirements feature</li>
+              <li style={props.jobAdditionalInformationStyle}>Developed ability to zoom-in distant barcodes in Zxing.Net.Mobile, Dark Mode, Collection Requirements feature and Azure build pipelines</li>
             </ul>
           </Col>
         </Row>
