@@ -22,7 +22,7 @@ function Experience(props) {
               <li style={props.jobAdditionalInformationStyle}>Developed LaunchDarkly APIs enabling the release of features to specific clients in a few clicks</li>
               <li style={props.jobAdditionalInformationStyle}>Revamped new and previous screens to follow the best accessibility standards thoroughly by conforming to WAI's WCAG 2.1</li>
               <li style={props.jobAdditionalInformationStyle}>Developed React components including grids, toolbars and forms that fetch and send data to the back end</li>
-              <li style={props.jobAdditionalInformationStyle}>Developed interactive dialogs to send personalized reward letter messages through the insertion of different template tokens</li>
+              <li style={props.jobAdditionalInformationStyle}>Developed interactive dialogs that send personalized reward letter messages through the insertion of different template tokens</li>
             </ul>
           </Col>
         </Row>
