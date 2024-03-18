@@ -1,5 +1,5 @@
 import './App.css';
-import { Typography, Col, Row } from 'antd';
+import { Typography } from 'antd';
 import Website from './Website';
 import Email from './Email';
 import Dot1 from './Dot1';
@@ -10,8 +10,8 @@ import Skills from './Skills';
 import Experience from './Experience';
 import Education from './Education';
 import Projects from './Projects';
-
-const { Title, Paragraph } = Typography;
+import HEADER from './constants/Header';
+const { Title } = Typography;
 
 const jobUniversityProjectSkillsWeight = '500';
 const jobSkillsWeight = jobUniversityProjectSkillsWeight;
@@ -37,8 +37,6 @@ const universityCityStyle = jobUniversityProjectCityStyle;
 const jobUniversityProjectDescriptionStyle = {fontSize: '11px', fontWeight: '500', color: 'black', display: 'inline'};
 const jobAdditionalInformationStyle = {fontSize: '11px', fontWeight: '500', color: 'black'};
 const jobDescriptionStyle = jobUniversityProjectDescriptionStyle;
-const universityDescriptionStyle = jobUniversityProjectDescriptionStyle;
-const projectDescriptionStyle = jobUniversityProjectDescriptionStyle;
 
 const hrStyle = {paddingTop: 0, marginTop: 0, borderTop: 'dashed', borderWidth: '1px', borderColor: 'black', backgroundColor: 'transparent', borderBottom: 'none', borderLeft: 'none', borderRight: 'none'};
 
@@ -57,15 +55,15 @@ function App() {
     <>
     <div style={{ margin: '0', width: '100%', backgroundColor: '#242424'}}>
       <div style={{ paddingBottom: '2%', paddingLeft: '6%', paddingTop: '4%', marginTop: 0, marginBottom: 0, width: '95%'}}>
-        <Title level={1} style={{marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500'}}>Matthew Godin</Title>
+        <Title level={1} style={{marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500'}}>{HEADER.name}</Title>
         <span>
-          <Website fontSize={headlineFontSize} />
+          <Website fontSize={headlineFontSize} link={HEADER.siteName} website={HEADER.website} />
           <Dot1 fontSize={headlineFontSize} />
-          <Email fontSize={headlineFontSize} />
+          <Email fontSize={headlineFontSize} link={HEADER.mailto + HEADER.email} email={HEADER.email} />
           <Dot2 fontSize={headlineFontSize} />
-          <Linkedin fontSize={headlineFontSize} />
+          <Linkedin fontSize={headlineFontSize} link={HEADER.linkedinSiteName + HEADER.linkedinProfile} profile={HEADER.linkedinProfile} />
           <Dot2 fontSize={headlineFontSize} />
-          <Github fontSize={headlineFontSize} />
+          <Github fontSize={headlineFontSize} link={HEADER.githubSiteName + HEADER.githubProfile} profile={HEADER.githubProfile} />
         </span>
       </div>
     </div>
