@@ -22,8 +22,6 @@ const separatorStyle = {paddingTop: 0, marginTop: 0, borderTop: 'dashed', border
   borderColor: 'black', backgroundColor: 'transparent', borderBottom: 'none', borderLeft: 'none',
   borderRight: 'none'};
 const spanStyle = {verticalAlign: 'middle', display: 'inline-block', padding: '0', margin: '0'};
-const paragraphStyle = {fontSize: props.fontSize + 'px', padding: '0', margin: '0', color: 'white',
-  fontWeight: 'bold'};
 
 const skillWeight = '500';
 const titleFontSize = '18px';
@@ -43,16 +41,16 @@ function App() {
         <div style={{ paddingBottom: '2%', paddingLeft: '6%', paddingTop: '4%', marginTop: 0, marginBottom: 0, width: '95%'}}>
           <Title level={1} style={{marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500'}}>{HEADER.name}</Title>
           <span>
-            <Website spanStyle={spanStyle} paragraphStyle={paragraphStyle} fontSize={headlineFontSize}
+            <Website spanStyle={spanStyle} fontSize={headlineFontSize}
               link={HEADER.siteName} website={HEADER.website} />
             <Dot1 spanStyle={spanStyle} fontSize={headlineFontSize} />
-            <Email spanStyle={spanStyle} paragraphStyle={paragraphStyle} fontSize={headlineFontSize}
+            <Email spanStyle={spanStyle} fontSize={headlineFontSize}
               link={HEADER.mailto + HEADER.email} email={HEADER.email} />
             <Dot2 spanStyle={spanStyle} fontSize={headlineFontSize} />
-            <Linkedin spanStyle={spanStyle} paragraphStyle={paragraphStyle} fontSize={headlineFontSize}
+            <Linkedin spanStyle={spanStyle} fontSize={headlineFontSize}
               link={HEADER.linkedinSiteName + HEADER.linkedinProfile} profile={HEADER.linkedinProfile} />
             <Dot2 spanStyle={spanStyle} fontSize={headlineFontSize} />
-            <Github spanStyle={spanStyle} paragraphStyle={paragraphStyle} fontSize={headlineFontSize}
+            <Github spanStyle={spanStyle} fontSize={headlineFontSize}
               link={HEADER.githubSiteName + HEADER.githubProfile} profile={HEADER.githubProfile} />
           </span>
         </div>

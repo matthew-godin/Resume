@@ -5,6 +5,8 @@ const { Paragraph } = Typography;
 function Github(props) {
   const spanStyle = {verticalAlign: 'middle', display: 'inline-block', padding: '0', margin: '0',
     marginRight: props.fontSize / 2 + 'px', marginLeft: props.fontSize / 2 + 'px'};
+  const paragraphStyle = {fontSize: props.fontSize + 'px', padding: '0', margin: '0',
+    color: 'white', fontWeight: 'bold'};
 
   return (
       <>
@@ -15,7 +17,7 @@ function Github(props) {
         </span>
         <span style={props.spanStyle}>
             <Link to={props.link} style={{textDecoration: 'none'}}>
-                <Paragraph style={props.paragraphStyle}>{props.profile}</Paragraph>
+                <Paragraph style={paragraphStyle}>{props.profile}</Paragraph>
             </Link>
         </span>
       </>

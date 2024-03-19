@@ -5,6 +5,8 @@ const { Paragraph } = Typography;
 function Linkedin(props) {
   const spanStyle = {verticalAlign: 'bottom', display: 'inline-block', padding: '0', margin: '0',
     marginRight: props.fontSize / 2 + 'px', marginLeft: props.fontSize / 2 + 'px'};
+  const paragraphStyle = {fontSize: props.fontSize + 'px', padding: '0', margin: '0',
+    color: 'white', fontWeight: 'bold'};
 
   return (
       <>
@@ -15,7 +17,7 @@ function Linkedin(props) {
         </span>
         <Link to={props.link} style={{textDecoration: 'none'}}>
             <span style={props.spanStyle}>
-                <Paragraph style={props.paragraphStyle}>{props.profile}</Paragraph>
+                <Paragraph style={paragraphStyle}>{props.profile}</Paragraph>
             </span>
         </Link>
       </>
