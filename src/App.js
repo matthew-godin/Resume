@@ -1,15 +1,15 @@
 import './App.css';
 import { Typography } from 'antd';
-import Website from './Website';
-import Email from './Email';
-import Dot1 from './Dot1';
-import Dot2 from './Dot2';
-import Linkedin from './Linkedin';
-import Github from './Github';
-import Skills from './Skills';
-import Experience from './Experience';
-import Education from './Education';
-import Projects from './Projects';
+import Website from './components/Website';
+import Email from './components/Email';
+import Dot1 from './components/Dot1';
+import Dot2 from './components/Dot2';
+import Linkedin from './components/Linkedin';
+import Github from './components/Github';
+import Skills from './components/Skills';
+import Experience from './components/Experience';
+import Education from './components/Education';
+import Projects from './components/Projects';
 import HEADER from './constants/Header';
 const { Title } = Typography;
 
