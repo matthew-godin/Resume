@@ -4,13 +4,12 @@ import PROJECTS from './constants/Projects';
 const { Title } = Typography;
 
 function Projects(props) {
+  const titleStyle = { fontSize: props.titleFontSize, margin: '0', fontWeight: 'bold', color: 'black',
+    paddingTop: props.titlePadding, paddingBottom: props.titleSecondaryPadding };
+
   return (
     <>
-        <Title
-          style={{ fontSize: props.titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: props.titlePadding, paddingBottom: props.titleSecondaryPadding}}
-          level={5}>
-            {PROJECTS.title}
-        </Title>
+        <Title style={titleStyle} level={5}>{PROJECTS.title}</Title>
         <hr style={props.hrStyle}/>
         {PROJECTS.content.map((project) =>
           <Project link={project.link} title={project.title} date={project.date}

@@ -14,17 +14,39 @@ function Skills(props) {
     return str;
   };
 
+  const titleStyle = { fontSize: props.titleFontSize, margin: '0', paddingTop: '3%',
+    paddingBottom: props.titleSecondaryPadding, fontWeight: 'bold', color: 'black' };
+  const skillTitleStyle = { margin: '0', fontSize: '12px', fontWeight: 'bold',
+    paddingTop: props.skillsPadding, paddingBottom: props.skillsPadding };
+  const centerSkillTitleStyle = { margin: '0', fontSize: '12px', fontWeight: 'bold',
+    paddingTop: props.skillsPaddingLarger, paddingBottom: props.skillsPaddingLarger };
+  const skillStyle = { margin: '0', fontSize: '12px', display: 'inline',
+    fontWeight: 'bold', color: 'black'};
+
   return (
     <>
-        <Title
-          style={{ fontSize: props.titleFontSize, margin: '0', paddingTop: '3%', paddingBottom: props.titleSecondaryPadding, fontWeight: 'bold', color: 'black' }}
-          level={5}>
-            {SKILLS.title}
+        <Title style={titleStyle} level={5}>
+          {SKILLS.title}
         </Title>
         <hr style={props.hrStyle} />
-        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: props.skillsPadding, paddingBottom: props.skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>{SKILLS.programmingLanguages.title}</Paragraph>{getSkillsString(SKILLS.programmingLanguages.content)}</Paragraph>
-        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: props.skillsPaddingLarger, paddingBottom: props.skillsPaddingLarger}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>{SKILLS.tools.title}</Paragraph>{getSkillsString(SKILLS.tools.content)}</Paragraph>
-        <Paragraph style={{ margin: '0', fontSize: '12px', fontWeight: 'bold', paddingTop: props.skillsPadding, paddingBottom: props.skillsPadding}}><Paragraph style={{ margin: '0', fontSize: '12px', display: 'inline', fontWeight: 'bold', color: 'black'}}>{SKILLS.frameworks.title}</Paragraph>{getSkillsString(SKILLS.frameworks.content)}</Paragraph>
+        <Paragraph style={skillTitleStyle}>
+          <Paragraph style={skillStyle}>
+            {SKILLS.programmingLanguages.title}
+          </Paragraph>
+          {getSkillsString(SKILLS.programmingLanguages.content)}
+        </Paragraph>
+        <Paragraph style={centerSkillTitleStyle}>
+          <Paragraph style={skillStyle}>
+            {SKILLS.tools.title}
+          </Paragraph>
+          {getSkillsString(SKILLS.tools.content)}
+        </Paragraph>
+        <Paragraph style={skillTitleStyle}>
+          <Paragraph style={skillStyle}>
+            {SKILLS.frameworks.title}
+          </Paragraph>
+          {getSkillsString(SKILLS.frameworks.content)}
+        </Paragraph>
     </>
   );
 }

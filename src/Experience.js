@@ -1,16 +1,15 @@
-import { Typography, Col, Row } from 'antd';
+import { Typography } from 'antd';
 import Position from './Position';
 import EXPERIENCE from './constants/Experience';
 const { Title } = Typography;
 
 function Experience(props) {
+  const titleStyle = { fontSize: props.titleFontSize, margin: '0', fontWeight: 'bold', color: 'black',
+    paddingTop: props.titlePadding, paddingBottom: props.titleSecondaryPadding }
+
   return (
     <>
-        <Title
-          style={{ fontSize: props.titleFontSize, margin: '0', fontWeight: 'bold', color: 'black', paddingTop: props.titlePadding, paddingBottom: props.titleSecondaryPadding }}
-          level={5}>
-          {EXPERIENCE.title}
-        </Title>
+        <Title style={titleStyle} level={5}>{EXPERIENCE.title}</Title>
         <hr style={props.hrStyle}/>
         {EXPERIENCE.content.map((position) =>
           <Position title={position.title + " - " + position.company + " "} location={position.location} date={position.date} skills={position.skills}
