@@ -1,4 +1,4 @@
-import { Typography, Col, Row } from 'antd';
+import { Col, Row } from 'antd';
 import { Link } from 'react-router-dom';
 
 function Project(props) {
