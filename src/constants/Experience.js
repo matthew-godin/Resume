@@ -9,7 +9,7 @@ const EXPERIENCE = {
             description: 'Dayforce Compensation and Recruiting',
             skills: 'C# • ASP.NET • TypeScript • React • SQL',
             lines: [
-                'Developed REST APIs and SQL Server queries performing sorts, filters, and business logic',
+                'Developed Guidelines and Candidate Management REST APIs and SQL Server queries performing sorts, filters, and business logic',
                 'Developed LaunchDarkly APIs enabling the release of features to specific clients in a few clicks',
                 'Revamped new and previous screens to follow the best accessibility standards thoroughly by conforming to WAI\'s WCAG 2.1',
                 'Developed React components including grids, toolbars and forms that fetch and send data to the back end',
