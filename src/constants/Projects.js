@@ -25,8 +25,8 @@ const PROJECTS = {
             title: 'Once Upon a Time',
             link: 'https://github.com/matthew-godin/Once-Upon-a-Time',
             description: 'VR app generating scenery according to the story being told',
-            mention: 'first place, Hack the North 2018',
-            mentionHeadline: 'First Place, Hack the North 2018',
+            mention: 'finalist, Hack the North 2018',
+            mentionHeadline: 'Finalist, Hack the North 2018',
             skills: 'C# • Unity • JavaScript • Node.js • IBM Watson',
             date: 'September 2018',
             headline: 'VR App Generating Story Scenery'
@@ -35,8 +35,8 @@ const PROJECTS = {
             title: 'Aya',
             link: 'https://github.com/matthew-godin/Aya',
             description: 'Intelligent robot head capable of recognizing people and objects',
-            mention: 'first place, Hack the North 2017',
-            mentionHeadline: 'First Place, Hack the North 2017',
+            mention: 'finalist and best use of AWS, Hack the North 2017',
+            mentionHeadline: 'Finalist and Best Use of AWS, Hack the North 2017',
             skills: 'Python • AWS',
             date: 'September 2017',
             headline: 'Intelligent Robot Head'
