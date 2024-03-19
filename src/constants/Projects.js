@@ -46,7 +46,7 @@ const PROJECTS = {
             link: 'https://github.com/matthew-godin/Messenger-Latex',
             description: 'Google Chrome plugin that allows writing mathematical expressions in Facebook Messenger',
             mention: 'first place, MHacks Nano 2017',
-            mentionHeadline: 'First Place, MHacks Nano 2018',
+            mentionHeadline: 'First Place, MHacks Nano 2017',
             skills: 'JavaScript',
             date: 'June 2017',
             headline: 'Google Chrome Plugin'
