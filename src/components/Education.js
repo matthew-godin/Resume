@@ -1,5 +1,5 @@
 import { Typography, Col, Row } from 'antd';
-import EDUCATION from './constants/Education';
+import EDUCATION from '../constants/Education';
 const { Title } = Typography;
 
 function Education(props) {

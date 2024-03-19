@@ -1,6 +1,6 @@
 import { Typography } from 'antd';
 import Project from './Project';
-import PROJECTS from './constants/Projects';
+import PROJECTS from '../constants/Projects';
 const { Title } = Typography;
 
 function Projects(props) {

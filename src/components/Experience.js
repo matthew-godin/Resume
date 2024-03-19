@@ -1,6 +1,6 @@
 import { Typography } from 'antd';
 import Position from './Position';
-import EXPERIENCE from './constants/Experience';
+import EXPERIENCE from '../constants/Experience';
 const { Title } = Typography;
 
 function Experience(props) {

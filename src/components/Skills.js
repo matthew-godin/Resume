@@ -1,5 +1,5 @@
 import { Typography } from 'antd';
-import SKILLS from './constants/Skills';
+import SKILLS from '../constants/Skills';
 const { Title, Paragraph } = Typography;
 
 function Skills(props) {
