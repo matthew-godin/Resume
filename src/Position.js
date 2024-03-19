@@ -9,14 +9,14 @@ function Position(props) {
           <Col xs={8} style={props.jobDatesWeight}>{props.date}</Col>
         </Row>
         <Row style={{paddingBottom: props.secondarySecondaryPadding}}>
-          <Col style={props.jobDescriptionStyle} xs={16}>{props.description}</Col>
+          <Col style={props.descriptionStyle} xs={16}>{props.description}</Col>
           <Col xs={8} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.jobSkillsWeight}}>{props.skills}</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
           <Col xs={24}>
             <ul style ={{margin: '0', paddingInlineStart: '20px'}}>
               {props.lines.map((line) =>
-                  <li style={props.jobAdditionalInformationStyle}>{line}</li>
+                  <li style={props.lineStyle}>{line}</li>
               )}
             </ul>
           </Col>

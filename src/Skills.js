@@ -28,7 +28,7 @@ function Skills(props) {
         <Title style={titleStyle} level={5}>
           {SKILLS.title}
         </Title>
-        <hr style={props.hrStyle} />
+        <hr style={props.separatorStyle} />
         <Paragraph style={skillTitleStyle}>
           <Paragraph style={skillStyle}>
             {SKILLS.programmingLanguages.title}

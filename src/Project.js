@@ -17,7 +17,7 @@ function Project(props) {
           <Col xs={8} style={props.projectDatesWeight}>{props.date}</Col>
         </Row>
         <Row style={{paddingBottom: props.mainPadding}}>
-          <Col style={props.jobDescriptionStyle} xs={descriptionProportioning.description}>{props.description}</Col>
+          <Col style={props.descriptionStyle} xs={descriptionProportioning.description}>{props.description}</Col>
           <Col xs={descriptionProportioning.skills} style={{textAlign: 'right', fontSize: '11px', fontWeight: props.projectSkillsWeight}}>{props.skills}</Col>
         </Row>
     </>

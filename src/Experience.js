@@ -10,13 +10,13 @@ function Experience(props) {
   return (
     <>
         <Title style={titleStyle} level={5}>{EXPERIENCE.title}</Title>
-        <hr style={props.hrStyle}/>
+        <hr style={props.separatorStyle}/>
         {EXPERIENCE.content.map((position) =>
           <Position title={position.title + " - " + position.company + " "} location={position.location} date={position.date} skills={position.skills}
             description={position.description} lines={position.lines} mainPadding={props.mainPadding} secondaryPadding={props.secondaryPadding}
             jobTitleWeight={props.jobTitleWeight} jobCityStyle={props.jobCityStyle} jobDatesWeight={props.jobDatesWeight}
-            secondarySecondaryPadding={props.secondarySecondaryPadding} jobDescriptionStyle={props.jobDescriptionStyle}
-            jobSkillsWeight={props.jobSkillsWeight} jobAdditionalInformationStyle={props.jobAdditionalInformationStyle} />
+            secondarySecondaryPadding={props.secondarySecondaryPadding} descriptionStyle={props.descriptionStyle}
+            jobSkillsWeight={props.jobSkillsWeight} lineStyle={props.lineStyle} />
         )}
     </>
   );
