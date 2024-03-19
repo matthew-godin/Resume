@@ -13,33 +13,17 @@ import Projects from './Projects';
 import HEADER from './constants/Header';
 const { Title } = Typography;
 
-const jobUniversityProjectSkillsWeight = '500';
-const jobSkillsWeight = jobUniversityProjectSkillsWeight;
-const universitySkillsWeight = jobUniversityProjectSkillsWeight;
-const projectSkillsWeight = jobUniversityProjectSkillsWeight;
+const dateStyle = {textAlign: 'right', fontSize: '13px', fontWeight: 'bold'};
+const titleStyle = {fontSize: '13px', fontWeight: 'bold', textDecoration: 'none', color: 'black'};
+const cityStyle = {fontSize: '11px', fontWeight: 'bold', color: 'black', display: 'inline'};
+const lineStyle = {fontSize: '11px', fontWeight: '500', color: 'black'};
+const descriptionStyle = {fontSize: '11px', fontWeight: '500', color: 'black', display: 'inline'};
+const separatorStyle = {paddingTop: 0, marginTop: 0, borderTop: 'dashed', borderWidth: '1px',
+  borderColor: 'black', backgroundColor: 'transparent', borderBottom: 'none', borderLeft: 'none',
+  borderRight: 'none'};
 
+const skillWeight = '500';
 const titleFontSize = '18px';
-
-const jobUniversityProjectDatesStyle = {textAlign: 'right', fontSize: '13px', fontWeight: 'bold'};
-const jobDatesWeight = jobUniversityProjectDatesStyle;
-const universityDatesWeight = jobUniversityProjectDatesStyle;
-const projectDatesWeight = jobUniversityProjectDatesStyle;
-
-const jobUniversityProjectTitleStyle = {fontSize: '13px', fontWeight: 'bold', textDecoration: 'none', color: 'black'};
-const jobTitleWeight = jobUniversityProjectTitleStyle;
-const universityTitleWeight = jobUniversityProjectTitleStyle;
-const projectTitleWeight = jobUniversityProjectTitleStyle;
-
-const jobUniversityProjectCityStyle = {fontSize: '11px', fontWeight: 'bold', color: 'black', display: 'inline'};
-const jobCityStyle = jobUniversityProjectCityStyle;
-const universityCityStyle = jobUniversityProjectCityStyle;
-
-const jobUniversityProjectDescriptionStyle = {fontSize: '11px', fontWeight: '500', color: 'black', display: 'inline'};
-const jobAdditionalInformationStyle = {fontSize: '11px', fontWeight: '500', color: 'black'};
-const jobDescriptionStyle = jobUniversityProjectDescriptionStyle;
-
-const hrStyle = {paddingTop: 0, marginTop: 0, borderTop: 'dashed', borderWidth: '1px', borderColor: 'black', backgroundColor: 'transparent', borderBottom: 'none', borderLeft: 'none', borderRight: 'none'};
-
 const mainPadding = '0.25%';
 const secondaryPadding = '0';
 const secondarySecondaryPadding = '0.2%';
@@ -47,7 +31,6 @@ const titlePadding = '0.9%';
 const titleSecondaryPadding = '0.15%';
 const skillsPadding = '0.15%';
 const skillsPaddingLarger = '0.05%';
-
 const headlineFontSize = 12;
 
 function App() {
@@ -68,17 +51,19 @@ function App() {
       </div>
     </div>
     <div style={{ paddingLeft: '6%', width: '89%'}}>
-        <Skills hrStyle={hrStyle} titleFontSize={titleFontSize} titleSecondaryPadding={titleSecondaryPadding} skillsPadding={skillsPadding}
-          skillsPaddingLarger={skillsPaddingLarger} />
-        <Education hrStyle={hrStyle} titleFontSize={titleFontSize} titlePadding={titlePadding} titleSecondaryPadding={titleSecondaryPadding} mainPadding={mainPadding}
-          secondaryPadding={secondaryPadding} universityTitleWeight={universityTitleWeight} universityDatesWeight={universityDatesWeight}
-          jobDescriptionStyle={jobDescriptionStyle} universitySkillsWeight={universitySkillsWeight} universityCityStyle={universityCityStyle} />
-        <Experience hrStyle={hrStyle} mainPadding={mainPadding} secondaryPadding={secondaryPadding} secondarySecondaryPadding={secondarySecondaryPadding}
-          titleFontSize={titleFontSize} titlePadding={titlePadding} titleSecondaryPadding={titleSecondaryPadding} jobDescriptionStyle={jobDescriptionStyle}
-          jobSkillsWeight={jobSkillsWeight} jobAdditionalInformationStyle={jobAdditionalInformationStyle} jobTitleWeight={jobTitleWeight} jobDatesWeight={jobDatesWeight}
-          jobCityStyle={jobCityStyle} />
-        <Projects hrStyle={hrStyle} titleFontSize={titleFontSize} titlePadding={titlePadding} titleSecondaryPadding={titleSecondaryPadding} mainPadding={mainPadding}
-          projectTitleWeight={projectTitleWeight} projectDatesWeight={projectDatesWeight} jobDescriptionStyle={jobDescriptionStyle} projectSkillsWeight={projectSkillsWeight} />
+        <Skills separatorStyle={separatorStyle} titleFontSize={titleFontSize} titleSecondaryPadding={titleSecondaryPadding}
+          skillsPadding={skillsPadding} skillsPaddingLarger={skillsPaddingLarger} />
+        <Education separatorStyle={separatorStyle} titleFontSize={titleFontSize} titlePadding={titlePadding}
+          titleSecondaryPadding={titleSecondaryPadding} mainPadding={mainPadding} secondaryPadding={secondaryPadding}
+          universityTitleWeight={titleStyle} universityDatesWeight={dateStyle} descriptionStyle={descriptionStyle}
+          universitySkillsWeight={skillWeight} cityStyle={cityStyle} />
+        <Experience separatorStyle={separatorStyle} mainPadding={mainPadding} secondaryPadding={secondaryPadding}
+          secondarySecondaryPadding={secondarySecondaryPadding} titleFontSize={titleFontSize} titlePadding={titlePadding}
+          titleSecondaryPadding={titleSecondaryPadding} descriptionStyle={descriptionStyle} jobSkillsWeight={skillWeight}
+          lineStyle={lineStyle} jobTitleWeight={titleStyle} jobDatesWeight={dateStyle} jobCityStyle={cityStyle} />
+        <Projects separatorStyle={separatorStyle} titleFontSize={titleFontSize} titlePadding={titlePadding}
+          titleSecondaryPadding={titleSecondaryPadding} mainPadding={mainPadding} projectTitleWeight={titleStyle}
+          projectDatesWeight={dateStyle} descriptionStyle={descriptionStyle} projectSkillsWeight={skillWeight} />
       </div>
     </>
   );
