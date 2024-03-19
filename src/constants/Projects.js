@@ -13,7 +13,7 @@ const PROJECTS = {
         },
         {
             title: 'Talk to Me',
-            link: 'https://github.com/matthew-godin/Talk-to-Me',
+            link: 'https://matthew-godin.com/talk-to-me/',
             description: 'Chat bot app that simplifies filling in HR forms',
             mention: 'first place, Ceridian Hackathon 2022',
             mentionHeadline: 'First Place, Ceridian Hackathon 2022',
