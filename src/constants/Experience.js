@@ -6,7 +6,7 @@ const EXPERIENCE = {
             company: 'Ceridian',
             location: 'Toronto, ON',
             date: 'May 2022 - Present',
-            description: 'Dayforce Candidate Management, Compensation Guidelines and Message Center',
+            description: 'Dayforce Compensation and Recruiting',
             skills: 'C# • ASP.NET • TypeScript • React • SQL',
             lines: [
                 'Developed REST APIs and SQL Server queries performing sorts, filters, and business logic',
@@ -21,7 +21,7 @@ const EXPERIENCE = {
             company: 'Ceridian',
             location: 'Toronto, ON',
             date: 'September 2021 - December 2021',
-            description: 'Dayforce Reward Letters and Compensation Cycles',
+            description: 'Dayforce Compensation',
             skills: 'C# • ASP.NET • TypeScript • React • SQL',
             lines: [
                 'Developed new features such as Reward Letter Equity Details using IronPDF, front-end components and REST APIs sending new sets of data'
