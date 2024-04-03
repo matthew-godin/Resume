@@ -5,10 +5,10 @@ const SKILLS = {
         content: [
             { name: 'TypeScript', desktop: 3, mobile: 8 },
             { name: 'JavaScript', desktop: 3, mobile: 8 },
-            { name: 'C#', desktop: 1, mobile: 4 },
             { name: 'Java', desktop: 2, mobile: 4 },
-            { name: 'Python', desktop: 2, mobile: 6 },
+            { name: 'Python', desktop: 2, mobile: 4 },
             { name: 'Ruby', desktop: 2, mobile: 6 },
+            { name: 'C#', desktop: 1, mobile: 6 },
             { name: 'Go', desktop: 1, mobile: 6 },
             { name: 'SQL', desktop: 2, mobile: 6 },
             { name: 'C++', desktop: 1, mobile: 5 },
