@@ -1,6 +1,3 @@
-rm ./src/constants -r -force
-mkdir src/constants
-cp -r -force ../Website/src/constants/content/* -Destination ./src/constants/
 rm .\matthew-godin-resume.pdf
 pm2 start .\node_modules\react-scripts\scripts\start.js
 while (!(Test-NetConnection localhost -Port 3000).TcpTestSucceeded) { Start-Sleep 1 }

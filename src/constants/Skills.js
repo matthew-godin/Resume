@@ -12,8 +12,8 @@ const SKILLS = {
             { name: 'C++', desktop: 2, mobile: 6 },
             { name: 'C', desktop: 1, mobile: 6 },
             { name: 'Java', desktop: 2, mobile: 6 },
+            { name: 'Ruby', desktop: 2, mobile: 6 },
             { name: 'Swift', desktop: 2, mobile: 6 },
-            { name: 'Kotlin', desktop: 2, mobile: 6 },
             { name: 'PHP', desktop: 2, mobile: 6 }
         ]
     },
@@ -40,10 +40,10 @@ const SKILLS = {
             { name: 'Vue', desktop: 1, mobile: 6 },
             { name: 'ASP.NET', desktop: 2, mobile: 6 },
             { name: 'Laravel', desktop: 2, mobile: 6 },
-            { name: 'PyTorch', desktop: 2, mobile: 6 },
+            { name: 'Ruby on Rails', desktop: 2, mobile: 6 },
             { name: 'Kafka', desktop: 2, mobile: 6 },
             { name: 'Spark', desktop: 2, mobile: 5 },
-            { name: 'WebGL', desktop: 2, mobile: 5 },
+            { name: 'PyTorch', desktop: 2, mobile: 5 },
             { name: 'Jest', desktop: 1, mobile: 4 },
             { name: 'NUnit', desktop: 2, mobile: 5 },
             { name: 'JUnit', desktop: 2, mobile: 5 }
