@@ -48,19 +48,20 @@ const SKILLS = {
             { name: 'Node.js', desktop: 2, mobile: 5 },
             { name: 'React', desktop: 2, mobile: 5 },
             { name: 'ASP.NET', desktop: 2, mobile: 5 },
-            { name: 'Ruby on Rails', desktop: 3, mobile: 9 },
+            { name: 'Spring', desktop: 2, mobile: 5 },
+            { name: 'Rails', desktop: 2, mobile: 4 },
             { name: 'Laravel', desktop: 2, mobile: 6 },
             { name: 'Vue', desktop: 1, mobile: 6 },
             { name: 'PyTorch', desktop: 2, mobile: 6 },
             { name: 'Kafka', desktop: 2, mobile: 6 },
             { name: 'Spark', desktop: 1, mobile: 5 },
             { name: 'Deno', desktop: 2, mobile: 5 },
-            { name: 'Jest', desktop: 2, mobile: 4 },
+            { name: 'Jest', desktop: 1, mobile: 4 },
             { name: 'NUnit', desktop: 2, mobile: 5 },
             { name: 'JUnit', desktop: 1, mobile: 5 }
         ],
         mobileNumColumns: [
-            4,
+            5,
             4,
             5
         ]
