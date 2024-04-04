@@ -3,10 +3,10 @@ const EXPERIENCE = {
     content: [
         {
             title: 'Software Developer',
-            company: 'Ceridian',
+            company: 'Dayforce',
             location: 'Toronto, ON',
             date: 'May 2022 - Present',
-            description: 'Dayforce Compensation and Recruiting',
+            description: 'Compensation and Recruiting',
             skills: 'C# • ASP.NET • TypeScript • React • SQL',
             lines: [
                 'Developed Guidelines and Candidate Management REST APIs and SQL Server queries performing sorts, filters, and business logic',
@@ -18,10 +18,10 @@ const EXPERIENCE = {
         },
         {
             title: 'Software Developer Intern',
-            company: 'Ceridian',
+            company: 'Dayforce',
             location: 'Toronto, ON',
             date: 'September 2021 - December 2021',
-            description: 'Dayforce Compensation',
+            description: 'Compensation',
             skills: 'C# • ASP.NET • TypeScript • React • SQL',
             lines: [
                 'Developed new features such as Reward Letter Equity Details using IronPDF, front-end components and REST APIs sending new sets of data'
