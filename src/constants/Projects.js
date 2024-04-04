@@ -15,8 +15,8 @@ const PROJECTS = {
             title: 'Talk to Me',
             link: 'https://matthew-godin.com/talk-to-me/',
             description: 'Chat bot app that simplifies filling in HR forms',
-            mention: 'most well-rounded in North America, Ceridian Hackathon 2022',
-            mentionHeadline: 'Most Well-Rounded in North America, Ceridian Hackathon 2022',
+            mention: 'most well-rounded hack, Ceridian Hackathon 2022',
+            mentionHeadline: 'Most Well-Rounded Hack, Ceridian Hackathon 2022',
             skills: 'Swift • iOS • TypeScript • React',
             date: 'August 2022',
             headline: 'HR Forms Chat Bot App'
