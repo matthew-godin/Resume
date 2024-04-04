@@ -7,7 +7,7 @@ function Project(props) {
     if (props.skills.length > 40) {
       descriptionProportioning = { description: 16, skills: 8 };
     } else if (props.skills.length > 30) {
-      descriptionProportioning = { description: 14, skills: 10 };
+      descriptionProportioning = { description: 15, skills: 9 };
     } else {
       descriptionProportioning = { description: 21, skills: 3 };
     }
