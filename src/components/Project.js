@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Project(props) {
   let descriptionProportioning = { description: 15, skills: 9 };
   if (props.description.length > 90) {
-    if (props.skills.length > 40) {
+    if (props.skills.length > 30) {
       descriptionProportioning = { description: 16, skills: 8 };
     } else {
       descriptionProportioning = { description: 21, skills: 3 };
