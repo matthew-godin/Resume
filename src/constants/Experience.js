@@ -3,9 +3,18 @@ const EXPERIENCE = {
     content: [
         {
             title: 'Software Developer',
+            company: 'Halton Regional Police Service',
+            location: 'Oakville, ON',
+            date: 'July 2024 - Present',
+            description: 'Police Analytics',
+            skills: '',
+            lines: []
+        },
+        {
+            title: 'Software Developer',
             company: 'Dayforce',
             location: 'Toronto, ON',
-            date: 'May 2022 - Present',
+            date: 'May 2022 - June 2024',
             description: 'Compensation and Recruiting',
             skills: 'C# • ASP.NET • TypeScript • React • SQL',
             lines: [
