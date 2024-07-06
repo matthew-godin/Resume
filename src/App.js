@@ -25,12 +25,12 @@ const spanStyle = {verticalAlign: 'middle', display: 'inline-block', padding: '0
 
 const skillWeight = '500';
 const titleFontSize = '18px';
-const mainPadding = '0.25%';
+const mainPadding = '0.2%';
 const secondaryPadding = '0';
-const secondarySecondaryPadding = '0.2%';
-const titlePadding = '0.9%';
-const titleSecondaryPadding = '0.15%';
-const skillsPadding = '0.15%';
+const secondarySecondaryPadding = '0.1%';
+const titlePadding = '0.8%';
+const titleSecondaryPadding = '0.1%';
+const skillsPadding = '0.1%';
 const skillsPaddingLarger = '0.05%';
 const headlineFontSize = 12;
 
